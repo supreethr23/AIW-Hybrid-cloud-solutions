@@ -45,3 +45,5 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a pre-
    ![](./media/deploymentstarted.png)
    
 12. The cluster may take 1 to 2 hrs to get deployed. If you navigate elsewhere in the Azure Portal, you can return to monitor progress on the Deployments tab of the cluster resource. Click Refresh to get the latest status on deployment.
+
+    ![](./media/deplomentstatehci.png)
