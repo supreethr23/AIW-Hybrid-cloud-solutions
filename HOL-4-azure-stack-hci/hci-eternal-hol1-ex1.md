@@ -54,7 +54,7 @@ In this exercise, you'll be preparing the environment for deploying Azure Stack 
 
    ![](./media/hci24-2.png)
 
-### Task 2: Onboard Azure Arc Machine to Azure 
+### Task 2: Onboard Azure Arc Machine to Azure and prepare to deploy Azure Stack HCI 
 
 1. Open **Windows PowerShell ISE** from LabVM by searching **Powershell**.
 
@@ -192,4 +192,4 @@ Set-HCIDeployPrereqs -HCIBoxConfig $HCIBoxConfig -localCred $localCred -domainCr
 
    ![](./media/hci24-4.png)
 
-Prepare to deploy Azure Stack HCI 
+
