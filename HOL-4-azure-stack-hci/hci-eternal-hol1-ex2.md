@@ -2,7 +2,22 @@
 
 In this exercise, you will be deploying an Azure Stack HCI solution using a pre-created ARM template from the previous exercise. You can deploy it either through the Azure portal by uploading the template and specifying deployment parameters, or using PowerShell for automated deployment, offering flexibility and control over the deployment process. Here, you will be deploying Azure Stack HCI using Deploy a custom template in Azure Portal.
 
-### Task 1: Review the pre-created ARM template
+### Task 1: Assign Azure Arc permission to Azure Stack HCI Resource Provider. 
+
+1. Navigate to your Azure Stack HCI Resource Group and Click on **Access Control**.
+
+    ![](./media/accesscontrol.png)
+
+2. Click on **Add** -> **Add Role Assignment** and select **Azure Connected Machine Resource Manager** and click on Next button.
+
+    ![](./media/roleassign.png)
+
+3. Now under Members page click on **select member** and select **Microsoft.AzureStackHCI Resource Provider** and click on Select, later click on **Review + Assign** to complete the asssignment.
+
+   ![](./media/selectresourceprovide.png)
+
+
+### Task 2: Create and Review the pre-created ARM template
    
 1. Now you will use the generated ARM template to validate the HCI cluster in Azure portal. Open File Explorer on HCIBox-Client and navigate to the C:\HCIBox folder. Right-click on the folder and open it in VSCode.
 
@@ -10,7 +25,7 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a pre-
 
    ![](./media/hci24-5.png)
 
-### Task 2: Vlidate Azure Stack HCI cluster using Azure portal.
+### Task 3: Vlidate and Deploy Azure Stack HCI cluster using Azure portal.
 
 1. Navigate back to Azure Portal, search for **Deploy a custom template** in search box and select it.
 
