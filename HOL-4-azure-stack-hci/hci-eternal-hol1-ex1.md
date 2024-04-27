@@ -176,6 +176,10 @@ In this exercise, you'll be preparing the environment for deploying Azure Stack 
 
 $HCIBoxConfig = Import-PowerShellDataFile -Path $Env:HCIBoxConfigFile
 
+# Login to Azure to get access on the nodes
+ $azureAppCred = (New-Object System.Management.Automation.PSCredential $env:spnClientID, (ConvertTo-SecureString -String $env:spnClientSecret -AsPlainText -Force))
+Connect-AzAccount -ServicePrincipal -SubscriptionId $env:subscriptionId -TenantId $env:spnTenantId -Credential $azureAppCred
+
 # Set credentials
 $localCred = new-object -typename System.Management.Automation.PSCredential `
    -argumentlist "Administrator", (ConvertTo-SecureString $HCIBoxConfig.SDNAdminPassword -AsPlainText -Force)
