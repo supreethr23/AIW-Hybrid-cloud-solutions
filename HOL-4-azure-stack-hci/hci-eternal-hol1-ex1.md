@@ -62,6 +62,8 @@ In this exercise, you'll be preparing the environment for deploying Azure Stack 
 
 2. Run the below commands to onboard Azure Arc Machines to Azure:
 
+   >**Note**: Script execution will take upto 30 to 45 minutes to update the pre-requisites and to onboard Azure Arc Machine to Azure.
+
 ```
    function Set-HCIDeployPrereqs {
     param (
