@@ -188,7 +188,7 @@ Set-HCIDeployPrereqs -HCIBoxConfig $HCIBoxConfig -localCred $localCred -domainCr
 
 ```
 
-3. Navigate to Azure portal and verify the Azure Arc Machines onboarded to Azure named **AzSHOST1**and **AzSHOST2**.
+3. Navigate to Azure portal and verify the Azure Arc Machines onboarded to Azure named **AzSHOST1** and **AzSHOST2**.
 
    ![](./media/hci24-4.png)
 
