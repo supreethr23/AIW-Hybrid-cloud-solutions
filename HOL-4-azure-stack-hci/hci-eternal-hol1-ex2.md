@@ -18,12 +18,17 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a pre-
 
 2. From Custom deployment page, click on **Build your own template in the editor**.
 
-   ![](./media/hci24-6.png)
+   ![](./media/buildcustom.png)
 
 3. Copy the content of ARM file named **hci.json**, replace it in Edit template and click on **Save**.
+      
+    ![](./media/hcijson.png)
 
-4. From Custom deployment page, click on Edit parameters. Replace the content from **hci.parameters.json** and click on **Save**.
+5. From Custom deployment page, click on Edit parameters. Replace the content with **hci.parameters.json** file and click on **Save**.
 
-5. Select the available Subscription and Resource Group, review the values passed in Parameters and then click **Review + Create**.
+6. Select the available Subscription and Resource Group, review the values passed in Parameters and then click **Review + Create**.
 
-6. Once Custom deployment Validation is passed, click on **Create**. Wait for the deployment to get completed and review Azure Stack HCI resource.
+   > Note: You dont need to make any changes in parameters section as these values are already update with the Powershell script executed in previous tasks. 
+    ![](./media/reviewhci.png)
+
+8. Once Custom deployment Validation is passed, click on **Create**. Wait for the deployment to get completed and review Azure Stack HCI resource.
