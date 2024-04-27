@@ -45,7 +45,7 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a pre-
 
 5. From Custom deployment page, click on Edit parameters. Replace the content with **hci.parameters.json** file and click on **Save**.
 
-6. Select the available Subscription and Resource Group, review the values passed in Parameters and then click **Review + Create**.
+6. Select the available Subscription and **AzureStackHCI** Resource Group, review the values passed in Parameters and then click **Review + Create**.
 
    > Note: You dont need to make any changes in parameters section as these values are already update with the Powershell script executed in previous tasks.
    
