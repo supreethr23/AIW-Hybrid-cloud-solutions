@@ -19,9 +19,9 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a pre-
 
 ### Task 2: Create and Review the pre-created ARM template
    
-1.Navigate to C:\HCIBox directory and right click on the file name **Generate-ARM-Template.ps1** and select run with Powershell. A powershell window  start and will close automatically after the execution and the creation of Azure Stack HCI ARM template completes. 
+1. Navigate to C:\HCIBox directory and right click on the file name **Generate-ARM-Template.ps1** and select run with Powershell. A powershell window  start and will close automatically after the execution and the creation of Azure Stack HCI ARM template completes. 
 
-   ![](./media/genarmtemplate.png)
+    ![](./media/genarmtemplate.png)
     
 2. Now you will use the generated ARM template to validate the HCI cluster in Azure portal. Open File Explorer on HCIBox-Client and navigate to the C:\HCIBox folder. Right-click on the folder and open it in VSCode.
 
