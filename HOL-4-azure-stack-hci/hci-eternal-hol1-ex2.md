@@ -14,30 +14,30 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a pre-
 
 3. Now under Members page click on **select member** and select **Microsoft.AzureStackHCI Resource Provider** and click on Select, later click on **Review + Assign** to complete the asssignment.
 
-   ![](./media/selectresourceprovide.png)
+    ![](./media/selectresourceprovide.png)
 
 
 ### Task 2: Create and Review the pre-created ARM template
    
 1.Navigate to C:\HCIBox directory and right click on the file name **Generate-ARM-Template.ps1** and select run with Powershell. A powershell window  start and will close automatically after the execution and the creation of Azure Stack HCI ARM template completes. 
 
-    ![](./media/genarmtemplate.png)
+   ![](./media/genarmtemplate.png)
     
 2. Now you will use the generated ARM template to validate the HCI cluster in Azure portal. Open File Explorer on HCIBox-Client and navigate to the C:\HCIBox folder. Right-click on the folder and open it in VSCode.
 
 3. Open and review the hci.json and hci.parameters.json files in VSCode. Verify that the hci.parameters.json file looks correct without "-staging" placeholder parameter values.
 
-   ![](./media/hci24-5.png)
+    ![](./media/hci24-5.png)
 
 ### Task 3: Vlidate and Deploy Azure Stack HCI cluster using Azure portal.
 
 1. Navigate back to Azure Portal, search for **Deploy a custom template** in search box and select it.
 
-   ![](./media/hci24-6.png)
+    ![](./media/hci24-6.png)
 
 2. From Custom deployment page, click on **Build your own template in the editor**.
 
-   ![](./media/buildcustom.png)
+    ![](./media/buildcustom.png)
 
 3. Copy the content of ARM file named **hci.json**, replace it in Edit template and click on **Save**.
       
@@ -61,8 +61,8 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a pre-
    
 11. Once the deployment starts, you will be redirected to the **Deployment** tab on Azure Stack HCI resource.
 
-   ![](./media/deploymentstarted.png)
+     ![](./media/deploymentstarted.png)
    
 12. The cluster may take 1 to 2 hrs to get deployed. If you navigate elsewhere in the Azure Portal, you can return to monitor progress on the Deployments tab of the cluster resource. Click Refresh to get the latest status on deployment.
 
-    ![](./media/deplomentstatehci.png)
+     ![](./media/deplomentstatehci.png)
