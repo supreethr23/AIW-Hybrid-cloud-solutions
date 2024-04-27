@@ -26,4 +26,4 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a pre-
 
 5. Select the available Subscription and Resource Group, review the values passed in Parameters and then click **Review + Create**.
 
-6. Once Custom deployment Validation is passed, click on **Create**. Wait for the deployment to get completed and review Azure Stack HCI reesource.
+6. Once Custom deployment Validation is passed, click on **Create**. Wait for the deployment to get completed and review Azure Stack HCI resource.
