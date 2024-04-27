@@ -28,7 +28,20 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a pre-
 
 6. Select the available Subscription and Resource Group, review the values passed in Parameters and then click **Review + Create**.
 
-   > Note: You dont need to make any changes in parameters section as these values are already update with the Powershell script executed in previous tasks. 
+   > Note: You dont need to make any changes in parameters section as these values are already update with the Powershell script executed in previous tasks.
+   
     ![](./media/reviewhci.png)
 
-8. Once Custom deployment Validation is passed, click on **Create**. Wait for the deployment to get completed and review Azure Stack HCI resource.
+8. Once Custom deployment Validation is passed, click on **Create**. Wait for the deployment to get completed and navigate to Azure Stack HCI resource and you will see a warning on top of the resource, Click on the **Click Here** buttong to deploy your cluster.
+
+    ![](./media/validatedhci.png)
+
+9. After clicking on the button, it will redirect you to **Deploy Azure Stack HCI** window and you should be able to see all the validation steps marked as **Succeeded** state, now click on **Next: Review + Create** button to deploy the Azure Stack HCI cluster.
+
+    ![](./media/deploystuckvalidated.png)
+   
+11. Once the deployment starts, you will be redirected to the **Deployment** tab on Azure Stack HCI resource.
+
+   ![](./media/deploymentstarted.png)
+   
+12. The cluster may take 1 to 2 hrs to get deployed. If you navigate elsewhere in the Azure Portal, you can return to monitor progress on the Deployments tab of the cluster resource. Click Refresh to get the latest status on deployment.
