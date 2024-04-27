@@ -186,7 +186,7 @@ $domainCred = new-object -typename System.Management.Automation.PSCredential `
 Write-Host "[Build cluster - Step 9/11] Preparing HCI cluster Azure deployment..." -ForegroundColor Green
 Set-HCIDeployPrereqs -HCIBoxConfig $HCIBoxConfig -localCred $localCred -domainCred $domainCred
 
-& "$Env:HCIBoxDir\Generate-ARM-Template.ps1"
+
 
 ```
 
