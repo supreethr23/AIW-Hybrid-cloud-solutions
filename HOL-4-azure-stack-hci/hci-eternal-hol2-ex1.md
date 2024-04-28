@@ -8,7 +8,7 @@
 
    ![](media/hol2-ex1-task1-step1.png)
 
-2.  On the **Hyper-V Manager**, select **HCIBOX-CLIENT** from the left menu under the Hyper-V Manager list, and  double-click on **AzHost1** node.
+2. On the **Hyper-V Manager**, select **HCIBOX-CLIENT** from the left menu under the Hyper-V Manager list, and  double-click on **AzHost1** node.
 
    ![](media/hol2-ex1-task1-step2.png)
 
