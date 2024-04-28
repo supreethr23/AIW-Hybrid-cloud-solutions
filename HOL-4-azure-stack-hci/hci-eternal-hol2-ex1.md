@@ -46,12 +46,78 @@
 
    ![](media/selecth-ciboxcluster-hci.png)
 
-4. In the **hciboxcluster** Azure Stack HCI, from the left menu select **Windows Admin Center (preview)** **(1)** under setting and click on **SetUp** **(2)**.
+4. In the **hciboxcluster** Azure Stack HCI, from the left menu select **Logical networks** **(1)** under Resources, and click on **+ Create logical network** **(2)**.
 
-   ![](media/wac-setup.png)
+   ![](media/logic1network-create.png)
 
-5. In the **Windows Admin Center** pop-up leave Listening port to **6516**, click on **Install**. 
+5. In the **Create logical network** tab, under Basic fill the fallowing details and click on **Next: Network Configuartion** **(5)**.
 
-   ![](media/wac-install.png)
+   - Subscription : Default subscription **(1)**
+   - Resource group : **AzureStackHCI** **(2)**
+   - Logical network name: **hcibox-aks-lnet-vlan110** **(3)**
+   - Virtual switch name: **ConvergedSwitch(hci)** **(4)**
+
+      ![](media/logic-1network-basic.png)
+
+6. In the **Network Configuation** tab, under the fallowing deatils and click on **Next: Tags** **(9)**.
+
+   | **Variables**                | **Values**                                                    |
+   | ---------------------------- |---------------------------------------------------------------|
+   | IP address assignment | **Static** **(1)** |
+   | IPv4 address space    | **10.10.0.0** **(2)** from the drop down  address prefix select **\24** **(3)** |
+   | IP pools              | Enter Start IP **10.10.0.101** **(4)** and End IP **10.10.0.199** **(5)** |
+   | Default Gateway       | Enter Default Gateway address as **10.10.0.1** **(6)** |
+   | DNS Servers           | Enter DNS Servers **192.168.1.254** **(7)** |
+   | VLAN ID               | Enter **110** **(8)** | 
+
+
+   ![](media/logic-1network-network.png)
+
+7. In the **Tag** tab, leave it as default and click **Next: Review + Create**.
+
+8. In the **Review + Create** tab, click on on **Create** button.
+
+   ![](media/logic-1network-create.png)
+
+9. Once the deployment got succedded, navigate back to **hciboxcluster** Azure Stack HCI, from the left menu select **Logical networks** **(1)** under Resources, and click on **+ Create logical network** **(2)**.
+
+   ![](media/logic2network-create.png)
+
+10. In the **Create logical network** tab, under Basic fill the fallowing details and click on **Next: Network Configuartion** **(5)**.
+
+    - Subscription : Default subscription **(1)**
+    - Resource group : **AzureStackHCI** **(2)**
+    - Logical network name: **hcibox-vm-lnet-vlan200** **(3)**
+    - Virtual switch name: **ConvergedSwitch(hci)** **(4)**
+
+      ![](media/logic-2network-basic.png)
+
+11. In the **Network Configuation** tab, under the fallowing deatils and click on **Next: Tags** **(7)**.
+
+    | **Variables**                | **Values**                                                    |
+    | ---------------------------- |---------------------------------------------------------------|
+    | IP address assignment | **Static** **(1)** |
+    | IPv4 address space    | **192.168.200.0** **(2)** from the drop down  address prefix select **\24** **(3)** |
+    | Default Gateway       | Enter Default Gateway address as **192.168.200.1** **(4)** |
+    | DNS Servers           | Enter DNS Servers **192.168.1.254** **(5)** |
+    | VLAN ID               | Enter **200** **(6)** | 
+
+
+      ![](media/logic-2network-network.png)
+
+12. In the **Tag** tab, leave it as default and click **Next: Review + Create**.
+
+13. In the **Review + Create** tab, click on on **Create** button.
+
+    ![](media/logic-2network-create.png)
+
+14. Once the deployment got succedded, navigate back to **hciboxcluster** Azure Stack HCI, from the left menu select **Windows Admin Center (preview)** **(1)** under setting and click on **SetUp** **(2)**.
+
+    ![](media/wac-setup.png)
+
+15. In the **Windows Admin Center** pop-up leave Listening port to **6516**, click on **Install**. 
+
+    ![](media/wac-install.png)
 
    > **Note**: This may take 5 minutes to get ready please wait.
+ 
