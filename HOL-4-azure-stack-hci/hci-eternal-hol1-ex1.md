@@ -15,11 +15,11 @@ Getting Started With Azure Stack HCI with Azure
  
 ## Login to Azure Portal
 
-1. In the **HCIBox-Client** virtual machine, double click on the Azure portal shortcut of Microsoft Edge browser which is provided on the desktop.
+1. In the **HCIBox-Client** virtual machine, double click on the Microsoft Edge browser shortcut which is provided on the desktop.
   
-    ![](media/open-az-portal.png "Select Azure Portal")
+    ![](media/hci-env2.png "Select Azure Portal")
     
-1. On the **Sign into Microsoft Azure** tab, you will see the login prompt. Enter the following **Email/Username** and then click on **Next**. 
+1. Navigate to Azure Portal using the URL provided here: `https://portal.azure.com/`. On the **Sign into Microsoft Azure** tab, you will see the login prompt. Enter the following **Email/Username** and then click on **Next**. 
       
       * Email/Username: **<inject key="AzureAdUserEmail"></inject>**
    
