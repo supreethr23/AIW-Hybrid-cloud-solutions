@@ -168,7 +168,6 @@
 
    > **Note**: This may take 5 minutes to get ready please wait
 
-
 ### Task 4: Monitor Cluster in Windows Admin Center
 
 1. 
