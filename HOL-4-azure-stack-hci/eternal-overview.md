@@ -36,12 +36,29 @@ Azure Stack HCI includes [Azure Kubernetes Services on Azure Stack HCI (AKS hybr
 
 HCIBox resources generate Azure Consumption charges from the underlying Azure resources including core compute, storage, networking and auxiliary services. Note that Azure consumption costs may vary depending the region where HCIBox is deployed. Be mindful of your HCIBox deployments and ensure that you disable or delete HCIBox resources when not in use to avoid unwanted charges. Please see the [Jumpstart HCIBox FAQ](../faq/) for more information on consumption costs.
 
-## Deployment Options and Automation Flow
 
-HCIBox provides two methods for deploying and configuring the necessary resources in Azure.
 
-- A [Bicep](https://learn.microsoft.com/azure/azure-resource-manager/bicep/overview?tabs=bicep) template that can be deployed manually via Azure CLI.
+## Using HCIBox
 
-- An [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/overview) template that can be used to for a more streamlined experience.
+HCIBox has many features that can be explored through the Azure portal or from inside the _HCIBox-Client_ virtual machine. To help you navigate all the features included, read through the following sections to understand the general architecture and how to use various features.
 
-![Screenshot showing deployment flow diagram for Bicep-based deployments](./deployment_flow.png)
+### Nested virtualization
+
+HCIBox simulates a 2-node physical deployment of Azure Stack HCI by using [nested virtualization on Hyper-V](https://learn.microsoft.com/virtualization/hyper-v-on-windows/user-guide/nested-virtualization). To ensure you have the best experience with HCIBox, take a moment to review the details below to help you understand the various nested VMs that make up the solution.
+
+  ![Screenshot showing HCIBox nested virtualization stack diagram](./nested_virtualization_arch.png)
+
+| Computer Name    | Role                                | Domain Joined | Parent Host     | OS                  |
+| ---------------- | ----------------------------------- | ------------- | --------------- | ------------------- |
+| _HCIBox-Client_  | Primary host                        | No            | Azure           | Windows Server 2022 |
+| _AzSHOST1_       | HCI node                            | Yes           | _HCIBox-Client_ | Azure Stack HCI     |
+| _AzSHOST2_       | HCI node                            | Yes           | _HCIBox-Client_ | Azure Stack HCI     |
+| _AzSMGMT_        | Nested hypervisor                   | No            | _HCIBox-Client_ | Windows Server 2022 |
+| _JumpstartDC_    | Domain controller                   | Yes (DC)      | _AzSMGMT_       | Windows Server 2022 |
+| _Vm-Router_      | Remote Access Server                | No            | _AzSMGMT_       | Windows Server 2022 |
+
+### Active Directory domain user credentials
+
+Once you are logged into the _HCIBox-Client_ VM using the local admin credentials you supplied in your template parameters during deployment you will need to switch to using a domain account to access most other functions, such as logging into the HCI nodes. The default domain account is _administrator@jumpstart.local_.
+
+  > **Note:** The password for this account is set as the same password you supplied during deployment for the local account. Many HCIBox operations will use the domain account wherever credentials are required.
