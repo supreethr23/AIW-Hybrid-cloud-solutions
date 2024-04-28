@@ -30,3 +30,7 @@ In this exercise, you'll be checking for updates in Azure Stack HCI via the Azur
 
    ![](media/hci24-16.1.png)
 
+8. Updating the Azure Stack HCI Cluster will take around 2 Hours. Once it's updated successfully, you will be able to see the status as **Up to date** and the update readiness as **Healthy** as shown in the below screenshot.
+
+   ![](media/hci24-17.png)
+
