@@ -32,7 +32,25 @@
 
 7. Install **Windows Admin Center** for **AzHost2** node, by repeating the **step 4 to step 6** .
 
-### Task 2: configuration of Cluster in Windows Admin Center
+### Task 2: Assign Windows Admin Center Administrator Login role to User 
+
+1. Navigate to your Azure Stack HCI Resource Group and Click on **Access Control**.
+
+    ![](./media/accesscontrol.png)
+
+2. Click on **Add** -> **Add Role Assignment** and select **Windows Admin Center Administrator Login** and click on Next button.
+
+    ![](./media/roleassign.png)
+
+3. Now under Members page click on **User, group, or service principle** and select **<inject key="AzureAdUserEmail"></inject>** and click on Select, later click on **Review + Assign** to complete the asssignment.
+
+   ![](./media/roletotheuser.png)
+
+4. In the **Review + assign** tab, click on **Review + assign** button.
+
+   ![](./media/roletotheuser1.png)
+
+### Task 3: configuration of Cluster in Windows Admin Center
 
 1. Navigate to the Resource Group in the Azure portal navigation section.
 
@@ -79,17 +97,78 @@
 
    ![](media/logic-1network-create.png)
 
+9. In the Azure portal, click on the search blade at the top and search for **Microsoft Entra id** and select **Microsoft Entra id**.
 
-9. Once the deployment got succedded, navigate back to **hciboxcluster** Azure Stack HCI, from the left menu select **Windows Admin Center (preview)** **(1)** under setting and click on **SetUp** **(2)**.
+   ![](media/entraid.png)
+
+10. In the **Microsoft Entra id** tab, from the left menu select **Groups** under Manage. 
+
+    ![](media/group.png)
+
+11. In the **Groups | All groups** tab, select **All groups** **(1)**,  and click on **New Group** **(2)**.
+
+    ![](media/addgroup.png)
+
+12. In the **New Group** tab, enter the **Group name** as **aks-auth** **(1)**, click on the **No Owner Selected** **(2)** under **Owners**, from the search **(3)** and select **(4)** for user **ODL_User <inject key="DeploymentID"></inject>**, and click on **Select** **(5)**.
+
+    ![](media/createnewgroup.png)
+
+13. In the **New Group** tab, click on **Create** button.
+
+    ![](media/newgroupcreate.png)
+
+14. In the Azure portal, click on the search blade at the top and search for **Kubernetes services** and select **Kubernetes services**.
+
+    ![](media/select-kubernetes-services.png)
+
+15. In the **Kubernetes services** tab, click on **+ Create** **(1)** and from the drop-down select **Create a Kubernetes cluster with Azure Arc** **(2)**.
+
+    ![](media/select-kubernetes-add.png)
+
+16. In the **Create a Kubernetes cluster with Azure Arc​** tab, fill the fallowing deatils in the Basic and click on **Next: Node Pool** **(7)**.
+
+    | **Variables**                | **Values**                                                    |
+    | ---------------------------- |---------------------------------------------------------------|
+    | Subscription | Default subscription **(1)** |
+    | Resource group | From the drop-down Select **AzureStackHCI** **(2)**  |
+    | Kubernetes cluster name | Enter the cluster name as **hciaks** **(3)** |
+    | Custom location | From the drop-down Select **jumpstart(EastUS)** **(4)** |
+    | Node size | From the drop down select **Standard_A2_v2** **(5)** |
+    | Key pair name | Enter the Key pair name as **hciaks** **(6)** |
+
+    ![](media/creat-aks-basic.png)
+
+17. In the **Node Pool** tab, leave it default and click in **Next: Access**.
+
+18. In the **Access** tab, select **Authentication and Authorization** method as **Microsoft Entra authentication with Kubernetes RBAC** **(1)**, and Click on **Choose Microsoft Entra group** **(2)**. 
+
+    ![](media/aksauth.png)
+
+19. In the **Choose Microsoft Entra group for cluster-admin ClusterRoleBinding** pop-up select **aks-auth** group and click on **Select**.
+
+    ![](media/select-group.png)
+
+20. In the **Access** tab, click on **Next: Networking**.
+
+21. In the **Networking** tab, select **Local network** as **hcibox-aks-lnet-vlan110** **(1)**, enter **Control plane IP** as **10.10.0.5** **(2)**, and click on **Review + Create** **(3)** .
+
+    ![](media/aksnetwork.png)
+
+22. In the **Review + Create** tab, click on **Review**.
+
+    ![](media/akscreate.png)
+
+23. Once the deployment got succedded, navigate back to **hciboxcluster** Azure Stack HCI, from the left menu select **Windows Admin Center (preview)** **(1)** under setting and click on **SetUp** **(2)**.
 
     ![](media/wac-setup.png)
 
-10. In the **Windows Admin Center** pop-up leave Listening port to **6516**, click on **Install**. 
+24. In the **Windows Admin Center** pop-up leave Listening port to **6516**, click on **Install**. 
 
     ![](media/wac-install.png)
 
-   > **Note**: This may take 5 minutes to get ready please wait.
- 
-### Task 3: Monitor Cluster in Windows Admin Center
+   > **Note**: This may take 5 minutes to get ready please wait
+
+
+### Task 4: Monitor Cluster in Windows Admin Center
 
 1. 
