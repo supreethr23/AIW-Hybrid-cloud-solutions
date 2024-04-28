@@ -4,7 +4,7 @@ HCIBox is a turnkey solution that provides a complete sandbox for exploring [Azu
 
   > **Note:** [Azure Stack HCI 23H2](https://learn.microsoft.com/azure-stack/hci/whats-new) is now generally available. 23H2 simplifies configuration and deployment of HCI clusters and related workloads like [VM management](https://learn.microsoft.com/azure-stack/hci/manage/azure-arc-vm-management-overview) for VM self-service management in Azure portal. HCIBox has also been updated and now offers clusters built on the new 23H2 OS, and prior Azure Stack HCI releases are no longer part of HCIBox or supported by the Jumpstart team. If you've used earlier versions of HCIBox you should read this guide thoroughly to understand the new HCIBox deployment process.
 
-<img src="/img/logo/hcibox.png" alt="Jumpstart HCIBox logo" width="250">
+<media/hcibox.png" alt="Jumpstart HCIBox logo" width="250">
 
 ## Use cases
 
@@ -14,7 +14,7 @@ HCIBox is a turnkey solution that provides a complete sandbox for exploring [Azu
 - Demo environment for customer presentations or events
 - Rapid integration testing platform
 
-![Screenshot showing HCIBox architecture diagram](./arch.png)
+![Screenshot showing HCIBox architecture diagram](media/arch.png)
 
 ## Azure Stack HCI capabilities available in HCIBox
 
@@ -22,7 +22,7 @@ HCIBox is a turnkey solution that provides a complete sandbox for exploring [Azu
 
 HCIBox automatically creates and configures a two-node Azure Stack HCI cluster using nested virtualization with Hyper-V running on an Azure Virtual Machine. This Hyper-V host creates three guest virtual machines: two Azure Stack HCI nodes (_AzSHost1_, _AzSHost2_), and one nested Hyper-V host (_AzSMGMT_). _AzSMGMT_ itself hosts two guest VMs: an [Active Directory domain controller](https://learn.microsoft.com/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview), and a [Routing and Remote Access Server](https://learn.microsoft.com/windows-server/remote/remote-access/remote-access) acting as a virtual router.
 
-![Screenshot showing HCIBox nested virtualization](./nested_virtualization.png)
+![Screenshot showing HCIBox nested virtualization](media/nested_virtualization.png)
 
 ### Virtual machine management
 
@@ -46,7 +46,7 @@ HCIBox has many features that can be explored through the Azure portal or from i
 
 HCIBox simulates a 2-node physical deployment of Azure Stack HCI by using [nested virtualization on Hyper-V](https://learn.microsoft.com/virtualization/hyper-v-on-windows/user-guide/nested-virtualization). To ensure you have the best experience with HCIBox, take a moment to review the details below to help you understand the various nested VMs that make up the solution.
 
-  ![Screenshot showing HCIBox nested virtualization stack diagram](./nested_virtualization_arch.png)
+  ![Screenshot showing HCIBox nested virtualization stack diagram](media/nested_virtualization_arch.png)
 
 | Computer Name    | Role                                | Domain Joined | Parent Host     | OS                  |
 | ---------------- | ----------------------------------- | ------------- | --------------- | ------------------- |
