@@ -28,5 +28,5 @@ In this exercise, you'll be checking for updates in Azure Stack HCI via the Azur
 
 7. You will see a notification that **Installation started on 1 Azure Stack HCI systems**. Also, you will be able to see the In-progress status from Updates pane.
 
-   ![](media/hci24-16.png)
+   ![](media/hci24-16.1.png)
 
