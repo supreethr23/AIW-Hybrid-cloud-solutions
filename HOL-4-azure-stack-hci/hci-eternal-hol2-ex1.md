@@ -207,14 +207,13 @@
 
    ![](media/vmimage-creat.png)
 
-10. In the **Create an image** tab, enter the fallowing details and click on **Review + Create** **(7)** button.
+10. In the **Create an image** tab, enter the fallowing details and click on **Review + Create** **(6)** button.
 
-    - Subscription : Default subscription **(1)**
-    - Resource group : **AzureStackHCI** **(2)**
-    - Save image as: Enter Image name as **hci-vm** **(3)**
-    - Custom location: From the drop-down select **jumpstart** **(4)**
-    - Image to download: Select **select Windows 10 Enterprise multi-session, version 21H2 - Gen2** **(5)** VM image.
-    - Storage path: select **Choose automatically** **(6)**
+    - Resource group : **AzureStackHCI** **(1)**
+    - Save image as: Enter Image name as **hci-vm** **(2)**
+    - Custom location: From the drop-down select **jumpstart** **(3)**
+    - Image to download: Select **select Windows 10 Enterprise multi-session, version 21H2 - Gen2** **(4)** VM image.
+    - Storage path: select **Choose automatically** **(5)**
 
       ![](media/vmimagebasic.png)
 
