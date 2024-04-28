@@ -7,9 +7,11 @@ Getting Started With Azure Stack HCI with Azure
 
 1. Once the environment is provisioned, a virtual machine i.e, **HCIBox-Client** and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
 
+   ![](media/hci-env1.png "Lab Environment")
+
 1. To get the lab environment details, select the **Environment Details** tab. The credentials will also be emailed to your registered email address. You can open the Lab Guide on a separate and full window by selecting the **Split Window** from the lower right corner. Also, you can start, stop and restart virtual machines from the **Virtual Machines** tab.
 
-   ![](media/env-page.png "Lab Environment")
+   ![](media/hci-env2.png "Lab Environment")
  
 ## Login to Azure Portal
 
