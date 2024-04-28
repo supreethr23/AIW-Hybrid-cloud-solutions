@@ -29,7 +29,7 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a pre-
 
     ![](./media/hci24-5.png)
 
-### Task 3: Vlidate and Deploy Azure Stack HCI cluster using Azure portal.
+### Task 3: Validate and Deploy Azure Stack HCI cluster using Azure portal.
 
 1. Navigate back to Azure Portal, search for **Deploy a custom template** in search box and select it.
 
