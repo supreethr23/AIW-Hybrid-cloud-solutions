@@ -50,7 +50,7 @@
 
    ![](./media/roletotheuser1.png)
 
-### Task 3: Create a local network for Azure Stack Virtual machine
+### Task 3: Create a Logical Network for Azure Stack HCI Virtual machines
 
 1. Navigate to the Resource Group in the Azure portal navigation section.
 
@@ -70,24 +70,23 @@
 
 5. In the **Create logical network** tab, under Basic fill the fallowing details and click on **Next: Network Configuartion** **(5)**.
 
-   - Subscription : Default subscription **(1)**
-   - Resource group : **AzureStackHCI** **(2)**
-   - Logical network name: **hcibox-aks-lnet-vlan110** **(3)**
-   - Virtual switch name: **ConvergedSwitch(hci)** **(4)**
+    - Subscription : Default subscription **(1)**
+    - Resource group : **AzureStackHCI** **(2)**
+    - Logical network name: **hcibox-aks-lnet-vlan110** **(3)**
+    - Virtual switch name: **ConvergedSwitch(hci)** **(4)**
 
-      ![](media/logic-1network-basic.png)
+   ![](media/logic-1network-basic.png)
 
 6. In the **Network Configuation** tab, under the fallowing deatils and click on **Next: Tags** **(9)**.
 
-   | **Variables**                | **Values**                                                    |
-   | ---------------------------- |---------------------------------------------------------------|
-   | IP address assignment | **Static** **(1)** |
-   | IPv4 address space    | **10.10.0.0** **(2)** from the drop down  address prefix select **\24** **(3)** |
-   | IP pools              | Enter Start IP **10.10.0.101** **(4)** and End IP **10.10.0.199** **(5)** |
-   | Default Gateway       | Enter Default Gateway address as **10.10.0.1** **(6)** |
-   | DNS Servers           | Enter DNS Servers **192.168.1.254** **(7)** |
-   | VLAN ID               | Enter **110** **(8)** | 
-
+    | **Variables**                | **Values**                                                    |
+    | ---------------------------- |---------------------------------------------------------------|
+    | IP address assignment | **Static** **(1)** |
+    | IPv4 address space    | **10.10.0.0** **(2)** from the drop down  address prefix select **\24** **(3)** |
+    | IP pools              | Enter Start IP **10.10.0.101** **(4)** and End IP **10.10.0.199** **(5)** |
+    | Default Gateway       | Enter Default Gateway address as **10.10.0.1** **(6)** |
+    | DNS Servers           | Enter DNS Servers **192.168.1.254** **(7)** |
+    | VLAN ID               | Enter **110** **(8)** | 
 
    ![](media/logic-1network-network.png)
 
@@ -127,14 +126,14 @@
 
 16. In the **Create a Kubernetes cluster with Azure Arc​** tab, fill the fallowing deatils in the Basic and click on **Next: Node Pool** **(7)**.
 
-    | **Variables**                | **Values**                                                    |
-    | ---------------------------- |---------------------------------------------------------------|
-    | Subscription | Default subscription **(1)** |
-    | Resource group | From the drop-down Select **AzureStackHCI** **(2)**  |
-    | Kubernetes cluster name | Enter the cluster name as **hciaks** **(3)** |
-    | Custom location | From the drop-down Select **jumpstart(EastUS)** **(4)** |
-    | Node size | From the drop down select **Standard_A2_v2** **(5)** |
-    | Key pair name | Enter the Key pair name as **hciaks** **(6)** |
+     | **Variables**                | **Values**                                                    |
+     | ---------------------------- |---------------------------------------------------------------|
+     | Subscription | Default subscription **(1)** |
+     | Resource group | From the drop-down Select **AzureStackHCI** **(2)**  |
+     | Kubernetes cluster name | Enter the cluster name as **hciaks** **(3)** |
+     | Custom location | From the drop-down Select **jumpstart(EastUS)** **(4)** |
+     | Node size | From the drop down select **Standard_A2_v2** **(5)** |
+     | Key pair name | Enter the Key pair name as **hciaks** **(6)** |
 
     ![](media/creat-aks-basic.png)
 
