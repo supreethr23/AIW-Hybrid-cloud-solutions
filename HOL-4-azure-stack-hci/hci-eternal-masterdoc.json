@@ -4,22 +4,35 @@
       "Language": "English",
       "BaseURL": "https://github.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions",
       "Files": [
-        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-laboverview.md",
+         
+          {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/eternal-overview.md",
           "Order": 1
         } ,
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol1-ex1.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-laboverview.md",
           "Order": 2
+        } ,
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol1-ex1.md",
+          "Order": 3
         },
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol1-ex2.md",
-          "Order": 3
+          "Order": 4
         },
         {
           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol1-ex3.md",
-          "Order": 3
-        }          
+          "Order": 5
+        },
+           {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol2-ex1.md",
+          "Order": 6
+        },
+           {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol2-ex3.md",
+          "Order": 7
+        }    
       ]
     }
   ]
