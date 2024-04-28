@@ -1,0 +1,22 @@
+[
+    {
+      "Name": "Azure Stack HCI",
+      "Language": "English",
+      "BaseURL": "https://github.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions",
+      "Files": [
+        
+          {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol1-ex1.md",
+          "Order": 1
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol1-ex2.md",
+          "Order": 2
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol1-ex3.md",
+          "Order": 3
+        }          
+      ]
+    }
+  ]
