@@ -129,9 +129,10 @@
     ```
     az connectedk8s proxy -n hciaks -g AzureStackHCI
     ```
-    
-  >Note: If you get any option to install any extension, please enter **Y**.    
+     ![](media/proxy.png)
+   
+   >Note: If you get any option to install any extension, please enter **Y**.    
 
-2. From JumpVM,Open a new powershell session and then in the new shell you will have kubectl access to your cluster. Try running some kubectl commands for yourself.
+3. From JumpVM,Open a new powershell session and then in the new shell you will have kubectl access to your cluster. Try running some kubectl commands for yourself.
 
     ![](media/kubconnected.png)
