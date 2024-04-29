@@ -121,12 +121,8 @@ In the previous task, you select **Finish** to exit the extraction phase, and st
 
 4. Microsoft Azure Backup Server requires SQL Server. The Azure Backup Server installation package comes bundled with the appropriate SQL Server binaries. If you want to use your own SQL installation, you can. However, the recommended choice is let the installer add a new instance of SQL Server. To ensure your choice works with your environment, select **Check and Install**.
 
-   > [!NOTE]
-   > Azure Backup Server won't work with a remote SQL Server instance. The instance used by Azure Backup Server must be local.
-   >
-
-   :::image type="content" source="./media/backup-azure-microsoft-azure-backup/sql/install-new-instance-of-sql-server.png" alt-text="Screenshot shows Azure Backup Server SQL check.":::
-
+   >**NOTE**: Azure Backup Server won't work with a remote SQL Server instance. The instance used by Azure Backup Server must be local.
+   
     After checking, if the virtual machine has the necessary prerequisites to install Azure Backup Server, select **Next**.
 
     If a failure occurs with a recommendation to restart the machine, then restart the machine. After restarting the machine, restart the installer, and when you get to the **SQL Settings** screen, select **Check Again**.
@@ -139,13 +135,9 @@ In the previous task, you select **Finish** to exit the extraction phase, and st
 
 6. On the **Security Settings** screen, provide a strong password for restricted local user accounts and select **Next**.
 
-    :::image type="content" source="./media/backup-azure-microsoft-azure-backup/update-opt-screen2.png" alt-text="Screenshot shows the Microsoft Update Opt-In page.":::
-
 7. On the **Microsoft Update Opt-In** screen, select whether you want to use *Microsoft Update* to check for updates and select **Next**.
 
-   > [!NOTE]
-   > We recommend having Windows Update redirect to Microsoft Update, which offers security and important updates for Windows and other products like Microsoft Azure Backup Server.
-   >
+   >**NOTE**: We recommend having Windows Update redirect to Microsoft Update, which offers security and important updates for Windows and other products like Microsoft Azure Backup Server.
 
     ![Microsoft Update Opt-In screen](media/mabs-install-wizard-update-13.png)
 
