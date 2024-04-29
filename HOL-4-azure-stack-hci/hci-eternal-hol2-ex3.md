@@ -49,7 +49,7 @@
 
    ![](media/logic-1network-create.png)
 
-### Create an Entra Group for authentication of AKS.
+### Task 2: Create an Entra Group for authentication of AKS.
 
 1. In the Azure portal, click on the search blade at the top and search for **Microsoft Entra id** and select **Microsoft Entra id**.
 
@@ -73,7 +73,7 @@
 
 
 
-# Create AKS on Azure Stack HCI using Azure Portal.
+# Task 3: Create AKS on Azure Stack HCI using Azure Portal.
 
 1. In the Azure portal, click on the search blade at the top and search for **Kubernetes services** and select **Kubernetes services**.
 
@@ -120,7 +120,7 @@
 
      ![](media/aksoverview.png)
     
-### Connecting to the Azure Stack HCI AKS
+### Task 4: Connecting to the Azure Stack HCI AKS
 
 1. From your jumpVM, open Powershel and run the following command, using the name of your HCIBox resource group.
 
