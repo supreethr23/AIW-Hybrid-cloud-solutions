@@ -1,4 +1,4 @@
-# Exercise 2: Deploying JumpStart-HCI Box in Azure Portal
+# Exercise 2: Deploying JumpStart-HCIBox in Azure Portal
 
 In this exercise, you will be deploying an Azure Stack HCI solution using a generated ARM template. You can deploy it either through the Azure portal by uploading the template and specifying deployment parameters or using PowerShell for automated deployment, offering flexibility and control over the deployment process. Here, you will be deploying Azure Stack HCI using a custom template in the Azure portal.
 
