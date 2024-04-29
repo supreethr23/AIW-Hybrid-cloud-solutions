@@ -1,6 +1,6 @@
 # Exercise 2: Deploying JumpStart-HCIBox in Azure Portal
 
-In this exercise, you will be deploying an Azure Stack HCI solution using a pre-created ARM template from the previous exercise. You can deploy it either through the Azure portal by uploading the template and specifying deployment parameters, or using PowerShell for automated deployment, offering flexibility and control over the deployment process. Here, you will be deploying Azure Stack HCI using Deploy a custom template in Azure Portal.
+In this exercise, you will be deploying an Azure Stack HCI solution using a generated ARM template. You can deploy it either through the Azure portal by uploading the template and specifying deployment parameters, or using PowerShell for automated deployment, offering flexibility and control over the deployment process. Here, you will be deploying Azure Stack HCI using Deploy a custom template in Azure Portal.
 
 ### Task 1: Assign Azure Arc permission to Azure Stack HCI Resource Provider. 
 
@@ -17,7 +17,7 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a pre-
     ![](./media/selectresourceprovide.png)
 
 
-### Task 2: Create and Review the pre-created ARM template
+### Task 2: Create and Review the generated ARM template
    
 1. Navigate to C:\HCIBox directory and right click on the file name **Generate-ARM-Template.ps1** and select run with Powershell. A powershell window  start and will close automatically after the execution and the creation of Azure Stack HCI ARM template completes. 
 
