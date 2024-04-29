@@ -115,3 +115,5 @@
 22. In the **Review + Create** tab, click on **Review**.
 
     ![](media/akscreate.png)
+
+### Connecting to the Azure Stack HCI AKS
