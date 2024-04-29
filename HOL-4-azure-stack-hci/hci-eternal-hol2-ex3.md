@@ -116,4 +116,22 @@
 
     ![](media/akscreate.png)
 
+23. Click on the AKS cluster to view details such as Kubernetes version. "Status" may show connecting for some time while the cluster fully connects to Azure.
+
+     ![](media/aksoverview.png)
+    
 ### Connecting to the Azure Stack HCI AKS
+
+1. From your jumpVM, open Powershel and run the following command, using the name of your HCIBox resource group.
+
+   >Note: Powershell ISE will not work as it may need some inputs while executing the command. 
+
+    ```
+    az connectedk8s proxy -n hciaks -g AzureStackHCI
+    ```
+    
+  >Note: If you get any option to install any extension, please enter **Y**.    
+
+2. From JumpVM,Open a new powershell session and then in the new shell you will have kubectl access to your cluster. Try running some kubectl commands for yourself.
+
+    ![](media/kubconnected.png)
