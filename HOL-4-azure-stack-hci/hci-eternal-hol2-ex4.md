@@ -124,3 +124,7 @@
 5. Click on **Next** and **Create** to start the VM deployment.
 
     ![](media/startcreationvm.png)
+
+6. Once the VM is created, click on the **Go to resource** button and review the VM configuration.
+
+    ![](media/win10overview.png)
