@@ -1,6 +1,8 @@
-# Exercise 4: Azure Stack HCI Vm provisioning
+# Exercise 4: Azure Stack HCI VM Provisioning
 
-### Task 1: Create a Logical Network for Azure Stack HCI VM.  
+In this exercise, you will learn how to provision virtual machines (VMs) on Azure Stack HCI. The process involves setting up a logical network, uploading a VM image to Azure Stack HCI storage, and then creating a new virtual machine using this image within the Azure Stack HCI environment. This practical exercise provides a step-by-step walkthrough of deploying VMs on Azure Stack HCI infrastructure.
+
+### Task 1: Create a Logical Network for Azure Stack HCI VM
 
 1. Navigate to the Resource Group in the Azure portal navigation section.
 
@@ -45,7 +47,7 @@
 
    ![](media/logic-2network-create.png)
 
-### Download and Add the VM image to Azure Stack HCI Storage.
+### Task 2: Download and Add the VM image to Azure Stack HCI Storage
 
 1. In the **hciboxcluster** Azure Stack HCI, from the left menu select **VM Image** **(1)** under **Resources**, click on **+ Add VM Image** **(2)**, and click on **From Azure Marketplace** **(3)**.
 
@@ -71,7 +73,7 @@
 
      ![](media/vmdownlaodes.png)
 
-### Create a Virtual Machine on Azure Stack HCI
+### Task 3: Create a Virtual Machine on Azure Stack HCI
 
 1. Navigate to **Virtual Machine** tab from the left side and click on **Create Virtual Machine**.
 
