@@ -57,33 +57,40 @@ A Recovery Services vault is a management entity that stores recovery points tha
 
 ### Task 3: Download and Install Azure Backup Server
 
-1. Once you've downloaded all files to your Azure Stack Hub virtual machine, go to the download location i.e, `C:\Users\arcdemo\Downloads`.
+1. Open **Microsoft Edge** from **AzSMGMT** node, and navigate to the download page of the Azure Backup Server installer from the Microsoft Download Center.
 
-    ![](media/hci24-27.png)
+   ```
+   https://www.microsoft.com/download/details.aspx?id=55269
+   ```
 
-1. To start the installation, from the list of downloaded files, select **MicrosoftAzureBackupserverInstaller.exe**.
+2. In the Microsoft Azure Backup Server download page, choose a language, and select **Download**.
 
-    > [!WARNING]
-    > At least 4GB of free space is required to extract the setup files.
-    >
+   ![](media/hci24-26.png)
 
-2. In the Azure Backup Server wizard, select **Next** to continue.
+3. The Azure Backup Server installer is composed of eight files - an installer and seven .bin files. Check **File Name** to select all required files and select **Download** to Download all files to the same folder. You will see a pop-up to Download multiple files, click **Allow**.
 
-    ![Microsoft Azure Backup Setup Wizard](./media/backup-mabs-install-azure-stack/mabs-install-wiz-1.png)
+    ![](media/hci24-33.png)
 
-3. Choose the path for the Azure Backup Server files, and select **Next**.
+4. Once you've downloaded all files to your Azure Stack Hub virtual machine, go to the download location in the File Explorer. To start the installation, from the list of downloaded files, double-click on **MicrosoftAzureBackupserverInstaller.exe**.
 
-   ![Select destination for files](./media/backup-mabs-install-azure-stack/mabs-install-wizard-select-destination-1.png)
+    ![](media/hci24-34.png)
 
-4. Verify the extraction location, and select **Extract**.
+5. In the Azure Backup Server wizard, select **Next** to continue.
 
-   ![Verify extraction location](./media/backup-mabs-install-azure-stack/mabs-install-wizard-extract-2.png)
+    ![](media/hci24-35.png)
 
-5. The wizard extracts the files and readies the installation process.
+6. Choose the path for the Azure Backup Server files, and select **Next**.
 
-   ![Wizard extracts files](./media/backup-mabs-install-azure-stack/mabs-install-wizard-install-3.png)
+   ![](media/hci24-36.png)
 
-6. Once the extraction process completes, select **Finish**. By default, **Execute setup.exe** is selected. When you select **Finish**, Setup.exe installs Microsoft Azure Backup Server to the specified location.
+7. Verify the extraction location, and select **Extract**.
 
-   ![Setup extracts Microsoft Azure Backup Server files](./media/backup-mabs-install-azure-stack/mabs-install-wizard-finish-4.png)
+   ![](media/hci24-37.png)
 
+8. The wizard extracts the files and readies the installation process.
+
+   ![](media/hci24-38.png)
+
+9. Once the extraction process completes, select **Finish**. By default, **Execute setup.exe** is selected. When you select **Finish**, Setup.exe installs Microsoft Azure Backup Server to the specified location.
+
+   ![](media/hci24-39.png)
