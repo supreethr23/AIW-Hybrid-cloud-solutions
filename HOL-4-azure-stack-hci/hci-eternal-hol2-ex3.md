@@ -49,7 +49,7 @@
 
    ![](media/logic-1network-create.png)
 
-### Create an Entra Group for AKS Acces.
+### Create an Entra Group for authentication of AKS.
 
 1. In the Azure portal, click on the search blade at the top and search for **Microsoft Entra id** and select **Microsoft Entra id**.
 
