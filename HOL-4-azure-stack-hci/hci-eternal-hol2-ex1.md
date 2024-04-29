@@ -22,7 +22,7 @@ In this hands-on lab exercise, you will learn how to configure and monitor clust
 
    ![](./media/roletotheuser1.png)
 
-### Task 2: Create a Logical Network for Azure Stack HCI Virtual machines
+### Task 2: Create a Logical Network for Azure Stack HCI for AKS
 
 1. Navigate to the Resource Group in the Azure portal navigation section.
 
