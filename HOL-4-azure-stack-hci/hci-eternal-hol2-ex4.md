@@ -70,3 +70,57 @@
 12. You can monitor the download Progress by Selecting the **VM images** tab from the lab side menu. Once the VM image download in completed, you can move to the next task of creating the Virtual Machine on Azure Stack HCI.
 
      ![](media/vmdownlaodes.png)
+
+### Create a Virtual Machine on Azure Stack HCI
+
+1. Navigate to **Virtual Machine** tab from the left side and click on **Create Virtual Machine**.
+
+     ![](media/createvms.png)
+
+2. On the VM Creation page, enter the following details and click on next. 
+
+    - Subscription : Default subscription **(1)**
+    - Resource group : **AzureStackHCI** **(2)**
+    - Virtual Machine name: **Win10-StackVM** **(3)**
+    - Security type: **Standard** **(4)**
+    - Storage path: **Choose Automatically**
+    - Image: **Select the VM image that you downloaded in previous step**
+    - Virtual Processor count: **4**
+    - Memory (MB): **8192**
+    - Memory Type: **Static**
+    - VM Extension: **Keep it checked**
+      
+      ![](media/vmcreate1.png)
+      
+   Administrator account
+   
+    - Username: **arcdemo**
+    - Password: **ArcPassword123!!**
+    - Keep unchecked the **Domain Join**
+  
+      ![](media/vmcreate2.png)
+
+      ![](media/vmcreate4.png)
+
+3. On the **Disks** tab, Click on **Add New disk** and enter the following details, after adding the details click on **Add** and **Next**. 
+
+    - Name : **wind10-disk** **(1)**
+    - Size (GB) : **128** **(2)**
+    - Provisioning type: **dynamic** **(3)**
+    - Security type: **Standard** **(4)**
+    - Storage path: **Choose Automatically**
+    
+  
+
+4. On the **Networking** tab, Click on **Add network interface** and enter the following details, after adding the details click on **Add** and **Next**.
+
+    - Name : **win10-nic** **(1)**
+    - Network : **hcibox-vm-lnet-vlan200** **(2)**
+    - IPv4 type: **Static** **(3)**
+    - Allocation Methon: **Automatic**
+
+     ![](media/nic.png)
+
+5. Click on **Next** and **Create** to start the VM deployment.
+
+    ![](media/startcreationvm.png)
