@@ -1,7 +1,6 @@
 # Exercise 3: Managing AKS on Azure Stack HCI 
 
-  In this exercise you will be creating an AKS on Azure Stack HCI.
-
+In this exercise, you'll be focusing on managing Azure Kubernetes Service (AKS) on Azure Stack HCI, which involves creating a logical network specifically tailored for AKS on Azure Stack HCI. It also covers setting up an Azure Active Directory (AAD) tenant group for authentication purposes. The process involves deploying AKS on Azure Stack HCI via the Azure Portal and establishing the necessary connections to access the AKS deployment. This hands-on lab demonstrates the setup and configuration steps required for deploying and managing AKS in an Azure Stack HCI environment.
 
 ### Task 1: Create a Logical Network for Azure Stack HCI for AKS
 
