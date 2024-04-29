@@ -1,6 +1,6 @@
 # Azure HCI Eternal Training Hands-on Lab: 1
 
-Getting Started With Azure Stack HCI with Azure
+Getting Started with Azure Stack HCI in Azure
 -------------------------
        
 # Getting Started with Lab
