@@ -12,23 +12,30 @@ A Recovery Services vault is a management entity that stores recovery points tha
 
 2. On the Overview pane, select Vault.
 
+   ![](media/hci24-19.png)
 
 3. Select Recovery Services vault > Continue.
 
+   ![](media/hci24-20.png)
 
 4. On the Recovery Services vault pane, enter the following values:
 
-   - Subscription: Select the available subscription to use
+    - Subscription: Select the available subscription to use
+    - Resource group: Use an existing resource group named **AzureStackHCI**
+    - Vault name: **hci-backup-vault** 
+    - Region: select the same region where Azure Satck HCI is deployed i.e, **East US**
 
-   - Resource group: Use an existing resource group named **AzureStackHCI**
-
-   - Vault name: **hci-backup-vault**
-
-   - Region: select the same region where Azure Satck HCI is deployed i.e, **East US**
+   ![](media/hci24-21.png)
 
 5. After providing the values, select Review + create.
+
+   ![](media/hci24-22.png)
 
 6. To finish creating the Recovery Services vault, select Create.
 
    It can take a while to create the Recovery Services vault. Monitor the status notifications in the Notifications area at the upper right. After the vault is created, it appears in the list of Recovery Services vaults. If the vault doesn't appear, select Refresh.
+
+   ![](media/hci24-23.png)
+
+   
 
