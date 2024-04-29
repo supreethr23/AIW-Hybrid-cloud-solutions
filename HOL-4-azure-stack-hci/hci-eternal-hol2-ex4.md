@@ -66,3 +66,7 @@
     ![](media/vmimagecreate.png)
 
     > **Note**: VM images download may take upto 1 hour.
+    
+12. You can monitor the download Progress by Selecting the **VM images** tab from the lab side menu. Once the VM image download in completed, you can move to the next task of creating the Virtual Machine on Azure Stack HCI.
+
+     ![](media/vmdownlaodes.png)
