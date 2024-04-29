@@ -115,6 +115,9 @@ In this exercise, you'll be preparing the environment for deploying Azure Stack 
             Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
             Register-PSRepository -Default -InstallationPolicy Trusted -ErrorAction SilentlyContinue
             Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+            #Enable WAC Installation
+            Get-AsWdacPolicyMode 
+            Enable-AsWdacPolicy -Mode Audit
 
             #Install Arc registration script from PSGallery
             Install-Module AzsHCI.ARCinstaller -Force
