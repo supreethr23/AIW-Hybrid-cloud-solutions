@@ -27,8 +27,20 @@
           "Order": 5
         },
            {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol2-ex3.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol2-ex2.md",
           "Order": 6
+        } ,
+           {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol2-ex3.md",
+          "Order": 7
+        }    ,
+           {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol2-ex4.md",
+          "Order": 8
+        },
+           {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/FY-23/HOL-4-azure-stack-hci/hci-eternal-hol2-ex5.md",
+          "Order": 9
         }    
       ]
     }
