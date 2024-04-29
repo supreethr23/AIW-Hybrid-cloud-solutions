@@ -3,68 +3,68 @@
 Getting Started with Azure Stack HCI in Azure
 -------------------------
        
-# Getting Started with Lab
+# Getting started with lab
 
-1. Once the environment is provisioned, a virtual machine i.e, **HCIBox-Client** and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
+1. Once the environment is provisioned, a virtual machine, i.e., **HCIBox-Client**, and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
 
    ![](media/hci-env1.png "Lab Environment")
 
-1. To get the lab environment details, select the **Environment Details** tab. The credentials will also be emailed to your registered email address. You can open the Lab Guide on a separate and full window by selecting the **Split Window** from the lower right corner. Also, you can start, stop and restart virtual machines from the **Virtual Machines** tab.
+1. To get the lab environment details, select the **Environment Details** tab. The credentials will also be emailed to your registered email address. You can open the lab guide in a separate and full window by selecting **Split Window** from the lower right corner. Also, you can start, stop, and restart virtual machines from the **Virtual Machines** tab.
 
    ![](media/hci-env2.png "Lab Environment")
  
-## Login to Azure Portal
+## Login to the Azure portal
 
-1. In the **HCIBox-Client** virtual machine, double click on the Microsoft Edge browser shortcut which is provided on the desktop.
+1. In the **HCIBox-Client** virtual machine, double-click on the Microsoft Edge browser shortcut that is provided on the desktop.
   
     ![](media/hci-env2.png "Select Azure Portal")
     
-1. Navigate to Azure Portal using the URL provided here: `https://portal.azure.com/`. On the **Sign into Microsoft Azure** tab, you will see the login prompt. Enter the following **Email/Username** and then click on **Next**. 
+1. Navigate to Azure Portal using the URL provided here: `https://portal.azure.com/`. On the **Sign into Microsoft Azure** tab, you will see the login prompt. Enter the following **Email/Username**, and then click on **Next**. 
       
       * Email/Username: **<inject key="AzureAdUserEmail"></inject>**
    
-1. Now, enter the **Password** which you have already received for the above account.
+1. Now, enter the **password** that you have already received for the above account.
       
       * Password: **<inject key="AzureAdUserPassword"></inject>**
       
-1. If you see the pop-up **Stay Signed in?**, click No
+1. If you see the pop-up **Stay signed in?** Click No
 
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
+1. If you see the pop-up, **You have free Azure Advisor recommendations!** close the window to continue the lab.
 
-1. If **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
+1. If the **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
 
-1. Navigate to the Resource Group in the Azure portal navigate section.
+1. Navigate to the Resource Group in the Azure portal navigation section.
 
    ![](.././media/navigate-resource-group.png "Select Resource Group from Navigate Option")
 
-1. From the Resource groups pane, click on **AzureStakHCI** resource group and verify the resources present in it.
+1. From the **Resource** groups pane, click on the **AzureStakHCI** resource group and verify the resources present in it.
 
    ![](media/azurestackhci-rg.png "Select Azure Stack HCI Resource Group")
 
-## Exercise 1: Preparing env with the prerequisites to Deploy Azure Stack HCI 
+## Exercise 1: Preparing env with the prerequisites to deploy Azure Stack HCI 
 
-In this exercise, you'll be preparing the environment for deploying Azure Stack HCI involves installing and configuring the necessary operating system (e.g., Windows Server), along with any required drivers and software. Additionally, configuring networking components such as switches and routers to meet Azure Stack HCI's networking requirements is essential for successful deployment.
+In this exercise, you'll be preparing the environment for deploying Azure Stack HCI, which involves installing and configuring the necessary operating system (e.g., Windows Server), along with any required drivers and software. Additionally, configuring networking components such as switches and routers to meet Azure Stack HCI's networking requirements is essential for successful deployment.
 
 ### Task 1: Review the configured virtualized Azure Stack VMs 
 
-1. In the LabVM, serch for Hyper-V Manger in search box. Select **Hyper-V Manager**.
+1. In the LabVM, search for Hyper-V Manager in the search box. Select **Hyper-V Manager**.
 
    ![](./media/hci24-1.png)
     
    
-2. From Hyper-V Manager, click on **HCIBOX-CLIENT** and review the **AzSHOST1**, **AzSHOST2** and **AzSMGMT** virtual machine are up and running as shown in the below screenshot.
+2. From Hyper-V Manager, click on **HCIBOX-CLIENT** and review that the **AzSHOST1**, **AzSHOST2**, and **AzSMGMT** virtual machines are up and running, as shown in the below screenshot.
 
    ![](./media/hci24-2.png)
 
 ### Task 2: Onboard Azure Arc Machine to Azure and prepare to deploy Azure Stack HCI 
 
-1. Open **Windows PowerShell ISE** from LabVM by searching **Powershell**.
+1. Open **Windows PowerShell ISE** from LabVM by searching **PowerShell**.
 
    ![](./media/hci24-3.png)
 
 2. Run the below commands to onboard Azure Arc Machines to Azure:
 
-   >**Note**: Script execution will take upto 30 to 45 minutes to update the pre-requisites and to onboard Azure Arc Machine to Azure.
+   >**Note**: Script execution will take up to 30 to 45 minutes to update the pre-requisites and to onboard Azure Arc Machine to Azure.
 
 ```
    function Set-HCIDeployPrereqs {
@@ -199,7 +199,7 @@ Set-HCIDeployPrereqs -HCIBoxConfig $HCIBoxConfig -localCred $localCred -domainCr
 
 ```
 
-3. Navigate to Azure portal and verify the Azure Arc Machines onboarded to Azure named **AzSHOST1** and **AzSHOST2**.
+3. Navigate to the Azure portal and verify the Azure Arc Machines onboarded to Azure, named **AzSHOST1** and **AzSHOST2**.
 
     >**Note**: If you see that only one Azure Arc machine got onboarded, please re-perform the previous step to complete the onboarding. 
 
