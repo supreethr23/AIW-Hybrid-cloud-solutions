@@ -10,7 +10,7 @@ In this exercise, you'll be verifying and confirming the successful deployment a
 
    ![](./media/hci24-8.png)
 
-3. In the **Overview** page of the **AzureStackHCI resource**, scroll-down and select **Nodes** to verify the Azure Arc Machines connected to **hciboxcluster**.
+3. In the **Overview** page of the **AzureStackHCI resource**, scroll down and select **Nodes** to verify the Azure Arc Machines connected to **hciboxcluster**.
 
    ![](./media/hci24-9.png)
 
