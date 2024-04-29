@@ -30,3 +30,27 @@
    ```
 
 7. Install **Windows Admin Center** for **AzHost2** node, by repeating the **step 4 to step 6** .
+
+# HOL 2: Exercise 2
+
+1. From the Backup center, select Vaults under Manage and select your **hci-backup-vault** vault to open its dashboard.
+
+    ![](media/hci24-23.png)
+
+2. In the vault's Getting Started menu, select **Backup** to open the Getting Started wizard. In the backup menu, from the **Where is your workload running** menu, select **On-premises**. From the **What do you want to backup?** drop-down menu, select **Hyper-V Virtual Machines** and then select **Prepare Infrastructure**.
+
+    ![](media/hci24-24.png)
+  
+3. In the **Prepare infrastructure** menu, select **Download** to open a web page to download Azure Backup Server installation files.
+
+    ![](media/hci24-25.png)
+
+   The Microsoft web page that hosts the downloadable files for Azure Backup Server, opens.
+
+4. In the Microsoft Azure Backup Server download page, choose a language, and select **Download**.
+
+   ![](media/hci24-26.png)
+
+5. The Azure Backup Server installer is composed of eight files - an installer and four .bin files. Check **File Name** to select all required files and select **Download** to Download all files to the same folder. You may see a pop-up to allow multiple files download, click **Allow**.
+
+    ![](media/hci24-27.png)
