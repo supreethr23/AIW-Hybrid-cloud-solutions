@@ -81,16 +81,16 @@ A Recovery Services vault is a management entity that stores recovery points tha
 
 6. Choose the path for the Azure Backup Server files, and select **Next**.
 
-   ![](media/hci24-36.png)
+    ![](media/hci24-36.png)
 
 7. Verify the extraction location, and select **Extract**.
 
-   ![](media/hci24-37.png)
+    ![](media/hci24-37.png)
 
 8. The wizard extracts the files and readies the installation process.
 
-   ![](media/hci24-38.png)
+    ![](media/hci24-38.png)
 
 9. Once the extraction process completes, select **Finish**. By default, **Execute setup.exe** is selected. When you select **Finish**, Setup.exe installs Microsoft Azure Backup Server to the specified location.
 
-   ![](media/hci24-39.png)
+    ![](media/hci24-39.png)
