@@ -52,12 +52,13 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a pre-
     ![](./media/reviewhci.png)
 
    > Note: If the Azure StackHCI Validation failed, On the deployment Page navigate back to Configuration section and update the local and domain Username password with the below values and retry the validation. It will take about 15 minutes to successfully validate the cluster deployment.
+
         * LCN User: HCIBoxDeployUser
-        *LCN Password: ArcPassword123!!
+        * LCN Password: ArcPassword123!!
         * Domain User: jumpstart
         * Domain Password: ArcPassword123!!
 
-8. Once Custom deployment Validation is passed, click on **Create**. Wait for the deployment to get completed and navigate to Azure Stack HCI resource and you will see a warning on top of the resource, Click on the **Click Here** buttong to deploy your cluster.
+8. Once Custom deployment Validation is passed, click on **Create**. Wait for the deployment to get completed and navigate to Azure Stack HCI resource and you will see a warning on top of the resource, Click on the **Click Here** button to deploy your cluster.
 
     ![](./media/validatedhci.png)
 
