@@ -6,7 +6,7 @@ In this exercise, you'll be verifying and confirming the successful deployment a
 
 1. From the Azure portal, open a resource group named **AzureStackHCI**.
 
-2. Select qn Azure Stack HCI resource named **hciboxcluster** from the **AzureStackHCI resource group**.
+2. Select an Azure Stack HCI resource named **hciboxcluster** from the **AzureStackHCI resource group**.
 
    ![](./media/hci24-8.png)
 
