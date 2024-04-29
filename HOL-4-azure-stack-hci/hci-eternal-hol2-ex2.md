@@ -33,13 +33,29 @@ A Recovery Services vault is a management entity that stores recovery points tha
 
 6. To finish creating the Recovery Services vault, select Create.
 
+   ![](media/hci24-23.png)
+
    It can take a while to create the Recovery Services vault. Monitor the status notifications in the Notifications area at the upper right. After the vault is created, it appears in the list of Recovery Services vaults. If the vault doesn't appear, select Refresh.
 
-### Task 2: Enable Azure Backup and Download Azure Backup Server installer
+### Task 2: Connect to On-Premises Hyper-V Virtual Machine
 
+1. On the **HCIBox-Client** virtual machine, click on search button search for **Hyper-V** and select **Hyper-V Manager**.
 
+   ![](media/hol2-ex1-task1-step1.png)
 
-### Task 3: Install the Azure Backup Server
+2. On the **Hyper-V Manager**, select **HCIBOX-CLIENT** from the left menu under the Hyper-V Manager list, and  double-click on **AzSMGMT** node.
+
+   ![](media/hci24-29.png)
+
+3. Connect to **AzSMGMT** box, and then click on the Connect button.
+
+   ![](media/hci24-30.png)
+
+4. On the **login** window, enter the password as **ArcPassword123!!** and hit **Enter** to login. 
+
+   ![](media/hci24-31.png)
+
+### Task 3: Download and Install Azure Backup Server
 
 1. Once you've downloaded all files to your Azure Stack Hub virtual machine, go to the download location i.e, `C:\Users\arcdemo\Downloads`.
 
