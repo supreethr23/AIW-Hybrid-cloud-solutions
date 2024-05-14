@@ -109,7 +109,6 @@ In this exercise, you will learn how to provision virtual machines (VMs) on Azur
     - Name : **wind10-disk** **(1)**
     - Size (GB) : **128** **(2)**
     - Provisioning type: **dynamic** **(3)**
-    - Security type: **Standard** **(4)**
     - Storage path: **Choose Automatically**
     
   
