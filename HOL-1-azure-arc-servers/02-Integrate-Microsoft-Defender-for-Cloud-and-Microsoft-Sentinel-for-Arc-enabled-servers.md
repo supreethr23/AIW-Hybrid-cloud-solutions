@@ -82,6 +82,10 @@ You can use the Azure Policy Deploy Log Analytics agent to Linux or Windows Azur
 6. Click on the **Overview** on the Microsoft Sentinel page from where you can view the insights after a few minutes. If you are not able to view the insights after a few minutes, then refresh the browser tab.
     
    ![](.././media/microsoft-sentinel-overview.png)
+
+7. Click on the **Content Hub** on the Microsoft Sentinel page, Search and select **Syslog** from the second page of the solution. Click on **Install**. Wait until it's installed before proceeding to the next step.
+
+   ![](.././media/hybridcloud-ex2-t2-1.png)
     
 7. Now, click on the **Workbooks** from the left pane under the **Threat Management** section and search for ```Linux machines``` and select **Linux machines** from the search result.
     
