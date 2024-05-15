@@ -65,8 +65,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](.././media/GS4.png)
  
-Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
-   
+Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop! 
 
 ## Task 1: Getting Started with Hyper-V Infrastructure
 
@@ -76,7 +75,7 @@ Hyper-V is Microsoft's hardware virtualization product. It lets you create and r
 
     ![](.././media/navigate-resource-group.png "Select Resource Group from Navigate Option")    
   
-1. Click on the azure-arc Resource group and confirm whether you have a total of 12 records to confirm all the below resources are deployed successfully.
+1. Click on the Azure-arc Resource group and confirm whether you have a total of 12 records to confirm all the below resources are deployed successfully.
 
    ![](https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/main/media/resources-azure-arc-rg.png)
 
@@ -99,7 +98,9 @@ Hyper-V is Microsoft's hardware virtualization product. It lets you create and r
     ![](.././media/hyd4.png "ARCHOST Server")
 
 1. You will find two guest virtual machines running on the Hyper-V manager. Find a list of guest virtual machines with private IP addresses.
+     
      * **ubuntu-k8s** - ```192.168.0.8```
+     
      * **sqlvm** - ```192.168.0.4```
      
         ![](.././media/guestvms1.png "Guest VMs")
@@ -151,20 +152,22 @@ Now, let’s onboard the Linux Machine to Azure Arc as an Arc-enabled server. Th
  1. Run the below commands to upgrade the az packages and az module. 
    
      ```
-      curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
-      python3 get-pip.py
-      apt install pip
-      python3 get-pip.py
-      python3 -m pip install -U pip
-      python3 -m pip install --upgrade pip --target /opt/az/lib/python3.6/site-packages/
-      az upgrade -y
-      init 6
-    ```
+     curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
+     apt-get update
+     apt install pip
+     python3 get-pip.py
+     python3 -m pip install -U pip
+     python3 -m pip install --upgrade pip --target /opt/az/lib/python3.6/site-packages/
+     pip install azure-common
+     apt update
+     az upgrade -y
+     init 6
+     ```
     > **Note**: If in case, the above commands fail then please run the below-mentioned command:
     
-    ```
+     ```
      sudo apt-get install python3-pip
-    ```
+     ```
  
 1. Open a new Putty session, re-perform the steps from step 2 to step 4 of the same task to get the upgraded packages and then continue from  step 7.
     
@@ -233,16 +236,18 @@ We have onboarded the Linux VM to Azure Arc and verified it in task 2. Now, you 
 1. To install helm, you need to run the following commands within the terminal of the ubuntu-k8s VM that is opened in Putty:
             
      > **Info**: Helm is a Kubernetes deployment tool for automating the creation, packaging, configuration, and deployment of applications and services to Kubernetes clusters. The Kubernetes app's manifests are stored in helm charts.
+
    ```
    curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
    chmod 700 get_helm.sh
    ./get_helm.sh
    ```
+
    **Note**: In case you see `Could not find git. It is required  for plugin installation.` warning, please ignore it and continue with the lab.
     
    ![](.././media/installhelm.png "installhelm")
 
-1. Next, you have to run the below command to ensure the Azure CLI version and customlocation extension for Az CLI are the latest.
+1. Next, you have to run the below command to ensure the Azure CLI version and custom location extension for Az CLI are the latest.
 
     ```
     az upgrade -y
@@ -302,6 +307,7 @@ We have onboarded the Linux VM to Azure Arc and verified it in task 2. Now, you 
    ![](.././media/connect-k8sv2.png "Connect Kubernetes")
    
    > **Note**: While running the above command, if you face an error stating **Could not retrieve credential from local cache**, run the following command to log in to the azure portal again.
+
    ```
    az login -u $AppID --service-principal --tenant $TenantID -p $AppSecret
    ```
@@ -419,8 +425,11 @@ In this task, let's configure and collect data from your Linux machine by enabli
 1. On the Create new rule Enter the following details:
 
     - Data collection rule name: Enter **data-<inject key="DeploymentID/Suffix" /> (1)**
+    
     - Enable processes and dependencies (Map): Check the box **(2)**
+    
     - Log Analytics workspaces: Choose the existing Log Analytics workspace **LogAnalyticsWS-<inject key="DeploymentID/Suffix" /> (3)**
+    
     - Click on **Create (4)**
 
         ![](.././media/hyd13.png)
