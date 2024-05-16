@@ -5,7 +5,9 @@ In the last exercise, we enabled the Linux Machine and Kubernetes cluster on Azu
 ## Task 1: Enable Microsoft Defender for Cloud.
 Microsoft Defender for Cloud can monitor the security posture of your non-Azure computers, but first, you need to connect them to Azure.
 You can connect your non-Azure computers in any of the following ways:
+  
   * Using Azure Arc enabled machines **(recommended)**
+  
   * From Microsoft Defender for cloud pages in the Azure portal **(Getting started and Inventory)**
  
 1. Search for **Microsoft Defender for Cloud** in the Azure portal search bar and then click on **Microsoft Defender for Cloud**.
@@ -45,13 +47,18 @@ You can connect your non-Azure computers in any of the following ways:
    ![](.././media/H1-Ex2-task2-07.png)
    
 ## Task 2: Onboard Azure Arc-enabled servers to Microsoft Sentinel
+
 Microsoft Sentinel comes with several connectors for Microsoft solutions, available out of the box and providing real-time integration. For physical and virtual machines, you can install the Log Analytics agent that collects the logs and forwards them to Microsoft Sentinel. Arc-enabled servers support deploying the Log Analytics agent using the following methods:
 
 #### Using the VM extensions framework:
 This feature in Azure Arc-enabled servers allows you to deploy the Log Analytics agent VM extension to a non-Azure Windows and/or Linux server. VM extensions can be managed using the following methods on your hybrid machines or servers managed by Arc-enabled servers:
+ 
  * The Azure portal
+ 
  * The Azure CLI
+ 
  * Azure PowerShell
+ 
  * Azure Resource Manager templates
 
 #### Using Azure Policy:
