@@ -409,7 +409,7 @@ Now let us connect to the data controller using Azure Data Studio.
 
 1. Open **Azure Data studio** **(1)** from the desktop shortcut, select **Connections** **(2)** and click on **Connect to Existing Azure Arc Controller** **(3)**.
   
-    ![](./media/ads-1.png "Azure Data Studio")
+    ![](./images/15-05-2024(2).png "Azure Data Studio")
    
 2. On the Connect to Existing Controller page, provide the following details and click on **Connect**.
 
