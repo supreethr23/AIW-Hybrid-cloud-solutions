@@ -1,5 +1,6 @@
 ## Exercise 1: Deploying Azure Arc Data Controller with direct connectivity mode and Azure Arc-enabled SQL Managed Instance Business Critical
-  Duration: 45 Minutes
+  
+Duration: 45 Minutes
   
 In this exercise, you will be connecting an existing Kubernetes cluster to Azure using Azure Arc-enabled Kubernetes. You will be deploying an Azure data controller in direct connectivity mode to a custom location using Azure portal and Azure CLI, and later you will be creating the Azure Arc-enabled SQL Managed Instance Business Critical on top of the Azure Arc Data Controller. In the short term, you will be preparing an infrastructure for the next exercise to restore the Databases into the Azure SQL Managed Instance. 
 
@@ -15,12 +16,15 @@ In this exercise, you will be connecting an existing Kubernetes cluster to Azure
     ```
     az login
     ```
+    
 1. After running the above command a browser tab will open to login to the Azure portal.
 
 1. On the **Sign into Microsoft Azure** tab you will see the login screen. Enter the following **Email/Username** and then click on **Next**.
+
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
 1. Now enter the following **Password** and click on **Sign in**.
+
    * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. After adding the credentials you will see that you have logged into Microsoft Azure.
@@ -220,8 +224,11 @@ In this task, you will be connecting an existing Kubernetes cluster to Azure usi
 1. On the **Data controller details** blade enter the following details:
 
    * Select the available subscription from the dropdown.
+
    * Resource Group: Select **azure-arc (1)** from dropdown.
+
    * Data Controller Name: **arcdc-direct (2)**
+
    * Custom location: Select the available custom location from dropdown **(3)**.
 
         ![](./media/dcnycloc.png "Lab Environment")
@@ -231,13 +238,19 @@ In this task, you will be connecting an existing Kubernetes cluster to Azure usi
    Under Kubernetes configuration enter the details below:
    
    * Kubernetes configuration template: Select **azure-arc-aks-default-storage (1)** from dropdown.
+
    * Data Storage class: Leave default
+
    * Log Storage class: Leave the default
+
    * Service type: **Load balancer (2)**
    
    Under the Metrics and Logs Dashboard Credentials enter the below details.
+
    * Data controller login: **arcuser (3)**
+
    * Password: **Password.1!! (4)**
+
    * Confirm password: **Password.1!! (5)**
 
    After entering all the required details click on **Next: Additional settings** (6)
@@ -252,7 +265,7 @@ In this task, you will be connecting an existing Kubernetes cluster to Azure usi
   
     ![](./media/dc-7.png "Lab Environment")
 
-1. On Review + Create blade, you can check all the given details and click on the **Create** button to start the Azure Arc data controller deployment.
+1. On Review + Create Blade, you can check all the given details and click on the **Create** button to start the Azure Arc data controller deployment.
 
     > **Note:** The deployment of the Azure Arc data controller can take up to 10 minutes to complete.
   
@@ -266,7 +279,7 @@ In this task, you will be connecting an existing Kubernetes cluster to Azure usi
  
     ![](./media/rg-dc-direct.png "Lab Environment")  
    
-  # Monitor the creation of Azure Arc data controller on cluster.
+  # Monitor the creation of Azure Arc data controller on the cluster.
    
 1. When the Azure portal deployment status shows the deployment was successful, you can check the status of the Arc data controller deployment on the cluster by running the below command on the PowerShell window:
 
@@ -342,13 +355,21 @@ In this exercise, let's create an **Azure Arc-enabled SQL Managed Instance** usi
           ![](./media/arcr.png "Lab Environment")
          
      - Instance Storage
+
        - Data storage class: leave default
+
        - Data volume size (in Gi): ```2```
+      
        - Data-logs storage class: leave ```default```
+
        - Data-logs volume size (in Gi): ```1```
+
        - Logs storage class: Leave ```default```
+
        - Logs volume size (in Gi): Enter ```1```
+
        - Backup Storage class: leave ```default```
+
        - Backups volume size (in Gi): ```1```
 
       >**Note**: In the above section the (Gi) is referring to the storage in Gigabytes.  
@@ -365,7 +386,7 @@ In this exercise, let's create an **Azure Arc-enabled SQL Managed Instance** usi
      
      - **Confirm Password**: Enter **Password.1!!**
 
-   After adding all the required details, click on the **Review + create** button to review all details.
+   After adding all the required details, click on the **Review + Create** button to review all details.
 
    ![sds](./media/sqlman-6.png "Lab Environment")
     
@@ -416,12 +437,19 @@ Now let us connect to the data controller using Azure Data Studio.
     ![](./media/ads-direct-manage.png "Azure Data Studio")
 
 5. Once you are in the Azure Arc Data Controller dashboard, you can see the following details about the data controller
+
    - Name of the Arc Data Controller
+
    - Region where it is deployed
+
    - Connection mode
+
    - Resource Group
+
    - Subscription ID of the Azure Subscription
+
    - Controller Endpoint
+
    - Namespace
    
    You will also see that we have deployed using the Direct connection mode of the Azure Arc Data controller.
@@ -439,11 +467,17 @@ In this task, let us learn how to connect to Azure Arc-enabled SQL Managed insta
 1. Once you are in the SQL-managed instance - Azure Arc dashboard, you can see the following details about the data controller:
 
    - Name of the Resource Group
+
    - Name of the Arc Data Controller
+
    - Subscription ID of the Azure Subscription
+
    - External Endpoint
+
    - Status of SQL Managed Instance
+
    - Region where it is deployed
+
    - Compute: Number of vCores
 
    Make sure you copy the **External Endpoint with port number** and save it in a notepad for use later in the task.   
