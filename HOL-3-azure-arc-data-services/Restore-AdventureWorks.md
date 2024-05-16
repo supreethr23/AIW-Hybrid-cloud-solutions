@@ -36,7 +36,7 @@ Now let's copy and restore the already taken backup file into your Azure SQL Man
    ```
    ![](media/newcp.png "Confirm")
 
-1. Now, to restore the AdventureWorks database, switch back to the Azure Data Studio and right click on the Connection of your connected SQL Managed Instance Server and click on **New query**.
+1. Now, to restore the AdventureWorks database, switch back to the Azure Data Studio and right click on the Connection of your connected SQL Managed Instance Server and click on **New Query**.
 
    ![](media/newq.png "Confirm")
 
