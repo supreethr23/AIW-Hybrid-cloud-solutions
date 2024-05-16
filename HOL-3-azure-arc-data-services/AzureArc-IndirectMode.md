@@ -24,7 +24,7 @@ In the environment provided, the Azure Arc Data controller is already deployed o
    
 1. Navigate back to **Azure Data studio** and in **Azure Arc Controllers** section, click on **Connect to Existing Azure Arc Controller**.
 
-   ![](./media/indirectmode-1.png "Connection")
+   ![](./images/15-05-2024(3).png "Azure Data Studio")
    
 1. In the **Connect to Existing Controller** page, provide the following details and click on **Connect**.
 
@@ -92,11 +92,11 @@ In this task, you will be creating an SQL Managed Instance using Azure Data Stud
 
    ![](images/nwinstnce.png "Confirm")
   
-1. Now, select the **Azure SQL Managed Instance** and click on **Select** at the bottom of the page.
+1. Now, select the **Azure SQL Managed Instance - azure arc** and click on **Select** at the bottom of the page.
 
-   ![](images/sqlmii1.png "Confirm")
+   ![](./images/15-05-2024(4).png "Azure Data Studio")
    
-1. On the next page that opens, read the Microsoft Privacy statement, and then click on **Next button** to proceed with the deployment. You can click on the privacy statement link to view the terms and conditions if you want to read through it.
+1. On the next page that opens, read the Microsoft Privacy statement, and then click on the **Next button** to proceed with the deployment. You can click on the privacy statement link to view the terms and conditions if you want to read through it.
 
    > **Note**: You will also see a **Required tools** table under the terms and conditions line. These tools are required to deploy the Azure Arc-enabled Azure SQL Managed Instance. You don't have to worry about the installation of any of those tools because we have already installed these required tools for you.
 
