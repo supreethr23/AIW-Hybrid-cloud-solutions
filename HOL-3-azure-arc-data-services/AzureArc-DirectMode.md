@@ -127,8 +127,8 @@ In this task, you will be connecting an existing Kubernetes cluster to Azure usi
 
      ```
      az connectedk8s enable-features -n Arc-Data-Demo-DirectMode -g azure-arc --features cluster-connect custom-locations
-    
      ```
+     
     The output should be similar to as shown below:**"Successfully enabled features: ['cluster-connect', 'custom-locations'] for the Connected Cluster Arc-Data-Demo-DirectMode"**
         
    > **Note**: The Custom Locations feature is dependent on the Cluster Connect feature. So, both features have to be enabled for custom locations to work. Also, az connectedk8s enable features need to be run on a machine where the kubeconfig file is pointing to the cluster on which the features are to be enabled.
@@ -156,6 +156,7 @@ In this task, you will be connecting an existing Kubernetes cluster to Azure usi
      $clusterID = az connectedk8s show -n Arc-Data-Demo-DirectMode -g azure-arc  --query id -o tsv
      $clusterID
      ```
+     
    > **Note:** The clusterID is stored in the $clusterID parameter and you will be using this parameter only in the later steps.
        
     ![zx](media/clusterid.png "Lab Environment")
