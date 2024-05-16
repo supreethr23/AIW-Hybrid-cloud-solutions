@@ -6,7 +6,6 @@ As noted before, Contoso has Windows, Linux, SQL Servers, and Kubernetes cluster
 
 In this exercise, you will learn how Arc can help Contoso onboard and organize servers and Kubernetes clusters in the Azure Portal, govern them using Azure Policy and enable central monitoring by integrating with Azure Monitor.
 
-
 ## **Accessing Your Lab Environment**
  
 1. You can see a virtual machine desktop 💻 (LabVM/ARCHOST) is loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab.
@@ -21,7 +20,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
 
-   ![](.././media/GS15.png)
+   ![](.././media/15-05-2024.png)
  
 ## **Utilizing the Split Window Feature**
  
@@ -33,7 +32,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-  ![](.././media/GS5.png)
+  ![](.././media/15-05-2024(1).png)
 
 ## **Let's Get Started with Azure Portal**
  
