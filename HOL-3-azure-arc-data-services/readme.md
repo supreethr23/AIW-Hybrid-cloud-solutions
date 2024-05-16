@@ -1,4 +1,5 @@
 ![](images/Arc-logo.png) 
+
 # HOL-3: Azure Arc-enabled Data Services
 
 ## Overview
@@ -25,7 +26,7 @@ Azure Arc helps you accelerate innovation across hybrid and multi-cloud environm
    
 ![](images/arcdiagramm.png)
 
-### How Azure Arc-enabled Data Services add value?
+### How do Azure Arc-enabled Data Services add value?
 
 Azure Arc enables you to bring Azure data services to any infrastructure across on-premises data centers, edge, and 3rd party clouds, using Kubernetes on the hardware of your choice. For customers who need to maintain data estate on-premises, you will gain unique benefits for those on-premises data workloads.
 
@@ -44,6 +45,7 @@ Azure Arc makes it possible to run Azure data services on-premises, at the edge,
   Currently, the following Azure Arc-enabled data services are available:
 
    * Azure SQL Managed Instance
+   
    * PostgreSQL (preview)
     
 In this Hands-on lab, we will be talking about only **Azure Arc-enabled SQL Managed Instance** and below are the few services and features of Azure Arc-enabled SQL Managed Instance.
@@ -80,6 +82,3 @@ Contoso wants to migrate and modernize its databases. They have already migrated
 Let’s take the journey together with Contoso and see how easy it is to accomplish all the above with Azure Arc-enabled data services. 
 
 In this lab, you will leverage the existing Kubernetes cluster to deploy the Azure Arc data controller with two different modes (Indirectly connected and Directly connected), Azure Arc-enabled SQL Managed Instance business critical.
-
-
-
