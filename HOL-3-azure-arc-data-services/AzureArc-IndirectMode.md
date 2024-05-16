@@ -60,12 +60,19 @@ Now that you are connected to an Azure Arc data controller, let us view the dash
     ![](./media/indirectmode-4.png "")
 
 1. Once you are in the Azure Arc Data Controller dashboard, you can see the following details about the data controller 
+
    - Name of the Arc Data Controller
+   
    - Region where it is deployed
+
    - Connection mode
+
    - Resource Group
+
    - Subscription ID of the Azure Subscription
+
    - Controller Endpoint
+
    - Namespace
    
    You will also see that we have deployed using the Indirect connection mode of the Azure Arc Data controller.
@@ -100,9 +107,13 @@ In this task, you will be creating an SQL Managed Instance using Azure Data Stud
    **Under SQL Connection information**
    
     - **Target Azure Arc Controller**: Select **arcdc-indirect**  
+    
     - **Instance name**: Enter **arcsql-indir**       
+    
     - **Username**:  Enter **arcsqluser** 
+    
     - **Password**: Enter **Password.1!!**
+    
     - **Confirm Password**: Enter **Password.1!!**    
 
       ![](images/sqlcnctsetting.png "Confirm")
@@ -110,21 +121,35 @@ In this task, you will be creating an SQL Managed Instance using Azure Data Stud
    **Under SQL Instance Settings**
    
     - **Service Tier**: **Business Critical** 
+    
     - **For Development use only**: **Check the box** 
+    
     - **storage class(Data)**: leave ```default```
+    
     - **volume size in Gi(Data)**: ```2```
+    
     - **storage class(Database logs )**: leave ```default```
+    
     - **volume size (Database logs)**: ```1```
+    
     - **storage class(Logs)**: Leave ```default```
+    
     - **volume size in Gi(Logs )**: Enter ```1```
+    
     - **Storage class(Backup)**: leave ```default```
+    
     - **volume size in Gi(Backups)**: ```1```
+    
     - **Cores Rquest**: ```2```
+    
     - **Cores Limit**: ```4```
+    
     - **Memory Request**: Enter ```2``` 
+    
     - **Memory Limit**: Enter ```4``` 
      
       ![](images/devbus.png "Confirm")
+
       ![](images/deploysqlm.png "Confirm") 
 
 1. Leave the other things to default and click on the **Deploy** button to start the deployment of the  **Azure SQL Managed instance - Azure Arc** on the data controller.
