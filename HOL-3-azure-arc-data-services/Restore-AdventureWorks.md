@@ -48,7 +48,6 @@ Now let's copy and restore the already taken backup file into your Azure SQL Man
    ,MOVE 'AdventureWorks2012_log' to '/var/opt/mssql/data/AdventureWorks2012_log.ldf'  
    ,RECOVERY;  
    GO
-  
    ```
 
    ![](media/restoreddd.png "Confirm")
