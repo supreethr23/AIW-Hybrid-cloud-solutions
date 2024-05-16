@@ -4,7 +4,7 @@
 
 In addition to managing and monitoring their Kubernetes clusters, Contoso’s central development teams are building applications for internal inventory management at their distribution sites. They need these applications to be containerized and run on Kubernetes clusters. The locations are spread across the country and Contoso is faced with the challenge of how to uniformly deploy, configure and manage their containerized applications across all these locations. By leveraging GitOps on Azure Arc-enabled Kubernetes, Contoso can centrally declare their Kubernetes configurations and applications in a Git repository and deploy them to all clusters simultaneously. Developers are more empowered because they can commit changes directly in the Git repo and these updates are also automatically rolled out to all the clusters.
 
-GitOps, as it relates to Kubernetes, is the practice of declaring the desired state of Kubernetes configuration (deployments, namespaces, etc.) in a Git repository followed by a polling and pull-based deployment of these configurations to the cluster using an operator. In this exercise, you will deploy a sample Kubernetes app using az k8sconfiguration command and gitops and also update the configuration in the repository which you have linked to the connected cluster and verify if the cluster is getting updated based on the changes made. You will be using the Kubernetes cluster with which you connected in the earlier exercise.
+GitOps, as it relates to Kubernetes, is the practice of declaring the desired state of Kubernetes configuration (deployments, namespaces, etc.) in a Git repository followed by a polling and pull-based deployment of these configurations to the cluster using an operator. In this exercise, you will deploy a sample Kubernetes app using the az k8sconfiguration command and gitops and also update the configuration in the repository which you have linked to the connected cluster and verify if the cluster is getting updated based on the changes made. You will be using the Kubernetes cluster with which you connected in the earlier exercise.
 
 ## Task 1: Fork the GitHub Arc K8s demo repository
 
@@ -56,7 +56,7 @@ GitOps, as it relates to Kubernetes, is the practice of declaring the desired st
     
  1. Run the below commands to upgrade the az packages and az module. 
    
-     ```
+      ```
       curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
       apt install pip
       python3 get-pip.py
@@ -64,7 +64,7 @@ GitOps, as it relates to Kubernetes, is the practice of declaring the desired st
       python3 -m pip install --upgrade pip --target /opt/az/lib/python3.6/site-packages/
       az upgrade -y
       init 6 #TO restart
-    ```
+      ```
 
 1. Open a new Putty session, re-perform the steps from step 2 to step 6 of the same task to get the upgraded packages and then continue from step 9.
 
@@ -137,7 +137,7 @@ After config-agent has installed the flux instance, resources held in the git re
    kubectl get ns --show-labels
    ```
  
-   The output shows that team-a, team-b, itops, and cluster-config namespaces have been created as shown:
+   The output shows that team-a, team-b, gitops, and cluster-config namespaces have been created as shown:
   
    ![](.././media/07.png) 
    
@@ -159,7 +159,7 @@ After config-agent has installed the flux instance, resources held in the git re
 
 ## Task 5: Make changes to cluster declarations in the Git repo.
 
-1.  Run the following command in the SSH session that is already opened to the ubuntu-k8s from putty and confirm that you are able to see the **arc-k8s-demo-** pod.
+1.  Run the following command in the SSH session that is already opened to the ubuntu-k8s from Putty and confirm that you are able to see the **arc-k8s-demo-** pod.
 
     ```
     kubectl get pods 
@@ -179,7 +179,7 @@ After config-agent has installed the flux instance, resources held in the git re
 
 ## Task 6: Verify changes are deployed to the cluster.
 
-1.  Run the following command in the SSH Session that you have opened to the ubuntu-k8s VM from Putty and copy the pod name starting with **arc-k8s-demo-**
+1.  Run the following command in the SSH Session that you have opened to the ubuntu-k8s VM from Putty and copy the pod name starting with **arc-k8s-demo**
 
     ```
     kubectl get pods 
@@ -206,4 +206,3 @@ After config-agent has installed the flux instance, resources held in the git re
 In this exercise, you have seen how to enable GitOps Configuration on connected K8s Cluster and how it works.
 
 Now, you can move on to the next exercise.
-
