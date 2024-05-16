@@ -27,10 +27,15 @@ In the last exercise, you have seen how to enable security measures and monitori
 1. On the **Server Details** blade, enter the below details.
  
    - Subscription: Leave default
+
    - Resource group: Select **azure-arc** from dropdown list.
+
    - Region: Select the same region as the Resource group.
+
    - Operating Systems: Select **Windows**.
+
    - Server Name: Type **sqlvm**
+
    - License Type: Select **I have a production environment on this server with Enterprise or Standard edition covered by Software Assurance or SQL subscription ("Paid")**.
 
      Now, click on the **Next: Tags** button.
@@ -70,6 +75,7 @@ In the last exercise, you have seen how to enable security measures and monitori
 1. You will be asked to authenticate the PowerShell. Open the browser and paste the URL **`https://microsoft.com/devicelogin`(1)**, paste the **code(2)** and then provide credentials as below.
 
       * Email/Username: <inject key="AzureAdUserEmail"></inject>
+      
       * Password: <inject key="AzureAdUserPassword"></inject>
 
          ![](.././media/H1E3T2S5.png "sqlsearch")
@@ -175,7 +181,6 @@ In the last exercise, you have seen how to enable security measures and monitori
    ![](.././media/hyd28.png "H1E3T3S19")
    
    > **Note**: After enabling the assessment, wait for a few minutes to get it complete. 
- 
    
 1. Once the assessment is **completed**, click on it to see the results. The **Assessment results** will look like below:
 
