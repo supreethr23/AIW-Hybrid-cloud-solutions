@@ -62,6 +62,8 @@ GitOps, as it relates to Kubernetes, is the practice of declaring the desired st
       python3 get-pip.py
       python3 -m pip install -U pip
       python3 -m pip install --upgrade pip --target /opt/az/lib/python3.6/site-packages/
+      pip install azure-common
+      apt update
       az upgrade -y
       init 6 #TO restart
       ```
