@@ -60,10 +60,6 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 6. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
    
-7. Now, click on the **Next** from the lower right corner to move to the next page.
-
-   ![](.././media/GS4.png)
- 
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop! 
 
 ## Task 1: Getting Started with Hyper-V Infrastructure
