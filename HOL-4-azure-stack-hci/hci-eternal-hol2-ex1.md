@@ -1,4 +1,4 @@
-# Azure HCI Eternal Training Hands-on Lab: 2
+# Azure Stack HCI Hands-on Lab: 2
 
 ## Exercise 1: Configure and monitor cluster performance from the Windows Admin Center dashboard
 
