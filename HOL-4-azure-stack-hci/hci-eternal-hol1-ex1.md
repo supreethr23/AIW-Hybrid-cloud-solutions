@@ -1,4 +1,4 @@
-# Azure HCI Eternal Training Hands-on Lab: 1
+# Azure Stack HCI Hands-on Lab: 1
 
 Getting Started with Azure Stack HCI in Azure
 -------------------------
