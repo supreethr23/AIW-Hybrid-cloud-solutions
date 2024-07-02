@@ -45,7 +45,7 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a gene
 
 5. From the **Custom deployment** page, click on **Edit parameters**. Replace the content with the **hci.parameters.json** file and click **Save**.
 
-6. Select the available **subscription** and **AzureStackHCI Resource group**, review the values passed in parameters, and then click **Review + Create**.
+6. Select the available **subscription** and **AzureStackHCI Resource group**, review the values passed in parameters, and then click **Review + Create** > **Create**.
 
    > Note: You do not need to make any changes in the parameters section, as these values are already update with the PowerShell script executed in previous tasks.
    
