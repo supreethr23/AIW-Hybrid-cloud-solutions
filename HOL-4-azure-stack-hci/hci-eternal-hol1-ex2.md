@@ -12,7 +12,7 @@ In this exercise, you will be deploying an Azure Stack HCI solution using a gene
 
     ![](./media/roleassign.png)
 
-3. Now, under the **Members** page, click on **Select Member**, select **Microsoft.AzureStackHCI resource provider**, and click on **Select**. Later, click on **Review + Assign** to complete the assignment.
+3. Now, under the **Members** page, click on **+ Select Member**, select **Microsoft.AzureStackHCI resource provider**, and click on **Select**. Later, click on **Review + Assign** to complete the assignment.
 
     ![](./media/selectresourceprovide.png)
 

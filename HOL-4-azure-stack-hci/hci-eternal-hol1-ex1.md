@@ -26,12 +26,14 @@ Getting Started with Azure Stack HCI in Azure
 1. Now, enter the **password** that you have already received for the above account.
       
       * Password: **<inject key="AzureAdUserPassword"></inject>**
-      
-1. If you see the pop-up **Stay signed in?** Click No
+
+1. On the **Action Required** pop-up click on **Ask later**.     
+
+1. If you see the pop-up **Stay signed in?** Click **No**.
 
 1. If you see the pop-up, **You have free Azure Advisor recommendations!** close the window to continue the lab.
 
-1. If the **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
+1. If the **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
 
 1. Navigate to the Resource Group in the Azure portal navigation section.
 
