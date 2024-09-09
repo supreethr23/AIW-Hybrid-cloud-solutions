@@ -4,14 +4,13 @@ Duration: 45 Minutes
   
 In this exercise, you will be connecting an existing Kubernetes cluster to Azure using Azure Arc-enabled Kubernetes. You will be deploying an Azure data controller in direct connectivity mode to a custom location using Azure portal and Azure CLI, and later you will be creating the Azure Arc-enabled SQL Managed Instance Business Critical on top of the Azure Arc Data Controller. In the short term, you will be preparing an infrastructure for the next exercise to restore the Databases into the Azure SQL Managed Instance. 
 
-
 ## Connect an existing Kubernetes cluster to Azure using Azure Arc-enabled Kubernetes
 
 ### Task 1: Log in to Azure and install Azure CLI extensions
 
 1. Open **Windows PowerShell** by double-clicking on the **Windows PowerShell** icon from the desktop of your ARCHOST VM and run the below command to log in to Azure.
 
-    ![](media/windpwsh.png "Lab Environment")
+    ![](././media/windpwsh.png)
     
     ```
     az login
@@ -518,3 +517,11 @@ In this task, let us learn how to connect to Azure Arc-enabled SQL Managed insta
     ![](./media/ads-9.png "ADS")
 
 In this exercise, we connected our cluster to the Azure Arc-enabled cluster and deployed a custom location and data controller with directly connected mode with the help of Azure portal and Azure CLI, and created an Azure Arc-enabled SQL Managed Instance server on the directly connected mode of Azure Arc data controller. Also, we have connected the Azure Arc Data Controller and Azure Arc-enabled SQL Managed Instance Business Critical using Azure Data Studio.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+<validation step="9864336d-56ad-4653-9737-e6f3ab34de18" />

@@ -203,7 +203,15 @@ After config-agent has installed the flux instance, resources held in the git re
     
     Observe the CPU request value that you updated in the previous steps in the output as shown:
     
-    ![](.././media/pods6.png)   
+    ![](.././media/pods6.png) 
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+<validation step="f1f20e86-84c1-438d-8082-5d5efac68d67" />  
 
 In this exercise, you have seen how to enable GitOps Configuration on connected K8s Cluster and how it works.
 

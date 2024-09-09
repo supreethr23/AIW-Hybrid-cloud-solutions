@@ -50,7 +50,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-      ![](.././media/GS1.png)
+      ![](.././media/GS3.png)
  
 4. If you see the pop-up **Stay Signed in?**, click **No**.
 
@@ -346,7 +346,7 @@ Policies can be applied to Arc-enabled servers the same way they are applied to 
 
     ![](.././media/searchAzureArc1v3.png)
     
-1. Select **Machines** from the options on the left side of the Azure Arc blade.
+1. Select **Machines** from the options on the left side under **Infrastructure** of the Azure Arc blade.
 
     ![](.././media/hyd1.png)
     
@@ -419,11 +419,11 @@ In this task, let's configure and collect data from your Linux machine by enabli
 
 1. On the Create new rule Enter the following details:
 
-    - Data collection rule name: Enter **data-<inject key="DeploymentID/Suffix" /> (1)**
+    - Data collection rule name: Enter **data-<inject key="DeploymentID" enableCopy="false"/> (1)**
     
     - Enable processes and dependencies (Map): Check the box **(2)**
     
-    - Log Analytics workspaces: Choose the existing Log Analytics workspace **LogAnalyticsWS-<inject key="DeploymentID/Suffix" /> (3)**
+    - Log Analytics workspaces: Choose the existing Log Analytics workspace **LogAnalyticsWS-<inject key="DeploymentID" enableCopy="false"/> (3)**
     
     - Click on **Create (4)**
 
@@ -459,7 +459,14 @@ In this task, let's configure and collect data from your Linux machine by enabli
 
     ![](.././media/HOL1-EX1-T6-P8.png)
 
-
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+<validation step="936f9acc-302b-4616-b597-f8ce17fe1949" />
+ 
 ## In this exercise, you have covered the following:
  
    - Getting started with Hyper-V Infrastructure.
