@@ -24,27 +24,25 @@ You can connect your non-Azure computers in any of the following ways:
 
    ![](.././media/H1-Ex2-task2-03.png)
 
-1. Click on **Inventory** umder **General** from the Microsoft Defender for Cloud.
+1. Click on **Inventory** under **General** from the Microsoft Defender for Cloud.
 
    ![](.././media/H1-Ex2-task2-04.png)
-    
-1. From the **Inventory** tab, click on the **+ Add non-Azure servers**.
 
-   ![](.././media/H1-Ex2-task2-05.png)
-    
-1. On **Onboard servers to Defender for Cloud** page, click on **Upgrade** next to the existing log analytics workspace named **LogAnalyticWS-<inject key="DeploymentID/Suffix" />** to upgrade. This will allow Azure Defender protection for your resources.
-
-   ![](.././media/H1-Ex2-task2-06.png)
-    
-1. Now, close the blade and go back to the **Inventory** tab and then you will see a few connected resources. If you don't see any resources, you will have to click on the Refresh button at the top.
-
-1. You can also find the **ubuntu-k8s** Arc-enabled machine available in the resources list because the **LogAnalytics** agent is already enabled for it and the same Log Analytics workspace is connected to Microsoft Defender for Cloud. 
+1. You find the **ubuntu-k8s** Arc-enabled machine available in the resources list because the **LogAnalytics** agent is already enabled for it and the same Log Analytics workspace is connected to Microsoft Defender for Cloud. 
 
    > **Note**: Agent monitoring will take a few minutes to update and show the status as **Monitored** for Arc-enabled machine **ubuntu-k8s** as shown in the below screen. You can continue to the next exercise and come back later to check on this.
 
    > Please note that due to some latest updates, the status is not changing to **Monitored** for Arc-enabled machine **ubuntu-k8s**, this is a temporary issue and will fixed in future updates.   
 
    ![](.././media/H1-Ex2-task2-07.png)
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+<validation step="98bec6a2-c611-434b-adee-e6227f006309" />
    
 ## Task 2: Onboard Azure Arc-enabled servers to Microsoft Sentinel
 
@@ -76,7 +74,8 @@ You can use the Azure Policy Deploy Log Analytics agent to Linux or Windows Azur
 
    ![](.././media/microsoft-sentinel-create.png)
     
-3. Select the existing log analytics workspace shown named LogAnalyticsWS-<inject key="DeploymentID/Suffix" /> and then click on the **Add** button.
+3. Select the existing log analytics workspace shown named LogAnalyticsWS-<inject key="DeploymentID" enableCopy="false"/>
+  and then click on the **Add** button.
 
    ![](.././media/microsoft-sentinel-add.png)
     
@@ -139,7 +138,6 @@ You can use the Azure Policy Deploy Log Analytics agent to Linux or Windows Azur
 1. Then, you will find the `VMProcess` query under **Queries**, click on **Run** to run the query.
    
     ![](.././media/as-131-v2.png) 
-
 
 ## In this exercise, you have covered the following:
  

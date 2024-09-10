@@ -50,7 +50,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-      ![](.././media/GS1.png)
+      ![](.././media/GS3.png)
  
 4. If you see the pop-up **Stay Signed in?**, click **No**.
 
@@ -72,7 +72,7 @@ Hyper-V is Microsoft's hardware virtualization product. It lets you create and r
   
 1. Click on the Azure-arc Resource group and confirm whether you have a total of 12 records to confirm all the below resources are deployed successfully.
 
-   ![](https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/main/media/resources-azure-arc-rg.png)
+   ![](/./media/resources-azure-arc-rg.png "Select hyper-v from desktop")
 
    * In the Resource group we have one **Virtual Machine**, **Kubernetes Service**, **Storage account** and **Log Analytics workspace** deployed.
 
@@ -88,7 +88,7 @@ Hyper-V is Microsoft's hardware virtualization product. It lets you create and r
 
     ![](.././media/select-hyper-v.png "Select hyper-v from desktop")
 
-1. Then, you need to Select **ARCHOST- <inject key="DeploymentID/Suffix" />** to connect with the Local Hyper-V server.
+1. Then, you need to Select **ARCHOST- <inject key="DeploymentID" enableCopy="false"/>** to connect with the Local Hyper-V server.
 
     ![](.././media/hyd4.png "ARCHOST Server")
 
@@ -346,7 +346,7 @@ Policies can be applied to Arc-enabled servers the same way they are applied to 
 
     ![](.././media/searchAzureArc1v3.png)
     
-1. Select **Machines** from the options on the left side of the Azure Arc blade.
+1. Select **Machines** from the options on the left side under **Infrastructure** of the Azure Arc blade.
 
     ![](.././media/hyd1.png)
     
@@ -379,7 +379,7 @@ Policies can be applied to Arc-enabled servers the same way they are applied to 
    > **Note:** Make sure to update the Assignment name the same as mentioned above in step 8. Different names will result in failure in the validation of this task.
 
 
-1. Under the **Log Analytics Workspace**, select the existing workspace **LogAnalyticsWS-<inject key="DeploymentID/Suffix" />** from the available list and then click on **Next**.
+1. Under the **Log Analytics Workspace**, select the existing workspace **LogAnalyticsWS-<inject key="DeploymentID" enableCopy="false"/>** from the available list and then click on **Next**.
 
     ![](.././media/HOL1-Ex1-T5-S9.png)
 
@@ -419,11 +419,11 @@ In this task, let's configure and collect data from your Linux machine by enabli
 
 1. On the Create new rule Enter the following details:
 
-    - Data collection rule name: Enter **data-<inject key="DeploymentID/Suffix" /> (1)**
+    - Data collection rule name: Enter **data-<inject key="DeploymentID" enableCopy="false"/> (1)**
     
     - Enable processes and dependencies (Map): Check the box **(2)**
     
-    - Log Analytics workspaces: Choose the existing Log Analytics workspace **LogAnalyticsWS-<inject key="DeploymentID/Suffix" /> (3)**
+    - Log Analytics workspaces: Choose the existing Log Analytics workspace **LogAnalyticsWS-<inject key="DeploymentID" enableCopy="false"/> (3)**
     
     - Click on **Create (4)**
 
@@ -459,7 +459,14 @@ In this task, let's configure and collect data from your Linux machine by enabli
 
     ![](.././media/HOL1-EX1-T6-P8.png)
 
-
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+<validation step="936f9acc-302b-4616-b597-f8ce17fe1949" />
+ 
 ## In this exercise, you have covered the following:
  
    - Getting started with Hyper-V Infrastructure.

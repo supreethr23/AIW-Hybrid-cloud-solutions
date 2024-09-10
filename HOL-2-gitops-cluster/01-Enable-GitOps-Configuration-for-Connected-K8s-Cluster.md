@@ -178,7 +178,6 @@ After config-agent has installed the flux instance, resources held in the git re
 
    ![](.././media/pods3.png)
    
-
 ## Task 6: Verify changes are deployed to the cluster.
 
 1.  Run the following command in the SSH Session that you have opened to the ubuntu-k8s VM from Putty and copy the pod name starting with **arc-k8s-demo**
@@ -190,7 +189,7 @@ After config-agent has installed the flux instance, resources held in the git re
     
     Observe in the above image that the previous pod is terminated and a new pod is created based on the updated configuration.
 
-      > **Note**: If you don't see any change, retry running the command after a couple of minutes
+      >**Note**: If you don't see any change, retry running the command after a couple of minutes.
 
 2.  Replace the pod name that you copied in the previous step and run the command
  
@@ -203,7 +202,15 @@ After config-agent has installed the flux instance, resources held in the git re
     
     Observe the CPU request value that you updated in the previous steps in the output as shown:
     
-    ![](.././media/pods6.png)   
+    ![](.././media/pods6.png) 
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+<validation step="f1f20e86-84c1-438d-8082-5d5efac68d67" />  
 
 In this exercise, you have seen how to enable GitOps Configuration on connected K8s Cluster and how it works.
 

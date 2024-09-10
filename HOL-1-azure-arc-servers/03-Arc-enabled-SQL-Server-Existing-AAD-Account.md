@@ -100,7 +100,7 @@ In the last exercise, you have seen how to enable security measures and monitori
 
 ## Task 3: Run on-demand SQL Assessment.
 
-1. Click on the search blade at the top and search for ```Log Analytics workspace```, then select **LogAnalyticsWS-<inject key="DeploymentID/Suffix" />**.
+1. Click on the search blade at the top and search for ```Log Analytics workspace```, then select **LogAnalyticsWS-<inject key="DeploymentID" enableCopy="false"/>**.
 
 1. Then select **Agents** from the left side menu. Click on **Log Analytics agent instructions** and copy the value of **Workspace ID** and **Primary Key** and save it into a Notepad or Notepad++ for later use.
  
@@ -176,7 +176,7 @@ In the last exercise, you have seen how to enable security measures and monitori
 
    ![](.././media/H1E3T3S18.png "H1E3T3S18")
 
-1. Select the log Analytics Workspace as **LogAnalyticsWS-<inject key="DeploymentID/Suffix" /> (1)** from the drop-down and click on **Enable assessment (2)**.
+1. Select the log Analytics Workspace as **LogAnalyticsWS-<inject key="DeploymentID" enableCopy="false"/> (1)** from the drop-down and click on **Enable assessment (2)**.
 
    ![](.././media/hyd28.png "H1E3T3S19")
    
@@ -187,6 +187,14 @@ In the last exercise, you have seen how to enable security measures and monitori
     ![](.././media/H1E3T3S21.png "H1E3T3S21")
       
    > **Note**: Now you can move to the next Exercise, you don't have to wait here for the Result to appear.   
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+<validation step="e9c36253-2523-4964-9996-0b518f38ee52" />
 
 ## In this exercise, you have covered the following:
  
