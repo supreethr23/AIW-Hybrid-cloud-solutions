@@ -178,7 +178,6 @@ After config-agent has installed the flux instance, resources held in the git re
 
    ![](.././media/pods3.png)
    
-
 ## Task 6: Verify changes are deployed to the cluster.
 
 1.  Run the following command in the SSH Session that you have opened to the ubuntu-k8s VM from Putty and copy the pod name starting with **arc-k8s-demo**
@@ -190,7 +189,7 @@ After config-agent has installed the flux instance, resources held in the git re
     
     Observe in the above image that the previous pod is terminated and a new pod is created based on the updated configuration.
 
-      > **Note**: If you don't see any change, retry running the command after a couple of minutes
+      >**Note**: If you don't see any change, retry running the command after a couple of minutes.
 
 2.  Replace the pod name that you copied in the previous step and run the command
  

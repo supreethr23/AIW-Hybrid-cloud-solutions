@@ -101,6 +101,14 @@ In this task, you will be connecting an existing Kubernetes cluster to Azure usi
    ```  
   
     ![](media/list-table.png "Lab Environment")
+
+     >**Note**: If you encounter the following error, run the commands below to complete the Azure CLI installation process, and then try executing the previous command again.
+    
+    ```
+    az upgrade
+    az extension update --name connectedk8s
+    ```
+    ![](.././media/3.png) 
    
 1. Azure Arc-enabled Kubernetes deploys a few operators into the azure-arc namespace. You can view these deployments and pods by running the command in the command prompt:  
 

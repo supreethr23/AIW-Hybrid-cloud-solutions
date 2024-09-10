@@ -72,7 +72,7 @@ Hyper-V is Microsoft's hardware virtualization product. It lets you create and r
   
 1. Click on the Azure-arc Resource group and confirm whether you have a total of 12 records to confirm all the below resources are deployed successfully.
 
-   ![](https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Hybrid-cloud-solutions/main/media/resources-azure-arc-rg.png)
+   ![](/./media/resources-azure-arc-rg.png "Select hyper-v from desktop")
 
    * In the Resource group we have one **Virtual Machine**, **Kubernetes Service**, **Storage account** and **Log Analytics workspace** deployed.
 
@@ -88,7 +88,7 @@ Hyper-V is Microsoft's hardware virtualization product. It lets you create and r
 
     ![](.././media/select-hyper-v.png "Select hyper-v from desktop")
 
-1. Then, you need to Select **ARCHOST- <inject key="DeploymentID/Suffix" />** to connect with the Local Hyper-V server.
+1. Then, you need to Select **ARCHOST- <inject key="DeploymentID" enableCopy="false"/>** to connect with the Local Hyper-V server.
 
     ![](.././media/hyd4.png "ARCHOST Server")
 
@@ -379,7 +379,7 @@ Policies can be applied to Arc-enabled servers the same way they are applied to 
    > **Note:** Make sure to update the Assignment name the same as mentioned above in step 8. Different names will result in failure in the validation of this task.
 
 
-1. Under the **Log Analytics Workspace**, select the existing workspace **LogAnalyticsWS-<inject key="DeploymentID/Suffix" />** from the available list and then click on **Next**.
+1. Under the **Log Analytics Workspace**, select the existing workspace **LogAnalyticsWS-<inject key="DeploymentID" enableCopy="false"/>** from the available list and then click on **Next**.
 
     ![](.././media/HOL1-Ex1-T5-S9.png)
 

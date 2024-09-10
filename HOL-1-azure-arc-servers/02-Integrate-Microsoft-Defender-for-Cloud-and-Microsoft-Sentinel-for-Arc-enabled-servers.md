@@ -24,7 +24,7 @@ You can connect your non-Azure computers in any of the following ways:
 
    ![](.././media/H1-Ex2-task2-03.png)
 
-1. Click on **Inventory** umder **General** from the Microsoft Defender for Cloud.
+1. Click on **Inventory** under **General** from the Microsoft Defender for Cloud.
 
    ![](.././media/H1-Ex2-task2-04.png)
 
@@ -74,7 +74,8 @@ You can use the Azure Policy Deploy Log Analytics agent to Linux or Windows Azur
 
    ![](.././media/microsoft-sentinel-create.png)
     
-3. Select the existing log analytics workspace shown named LogAnalyticsWS-<inject key="DeploymentID/Suffix" /> and then click on the **Add** button.
+3. Select the existing log analytics workspace shown named LogAnalyticsWS-<inject key="DeploymentID" enableCopy="false"/>
+  and then click on the **Add** button.
 
    ![](.././media/microsoft-sentinel-add.png)
     
@@ -137,7 +138,6 @@ You can use the Azure Policy Deploy Log Analytics agent to Linux or Windows Azur
 1. Then, you will find the `VMProcess` query under **Queries**, click on **Run** to run the query.
    
     ![](.././media/as-131-v2.png) 
-
 
 ## In this exercise, you have covered the following:
  

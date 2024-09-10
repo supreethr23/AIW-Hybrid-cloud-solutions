@@ -100,7 +100,7 @@ In the last exercise, you have seen how to enable security measures and monitori
 
 ## Task 3: Run on-demand SQL Assessment.
 
-1. Click on the search blade at the top and search for ```Log Analytics workspace```, then select **LogAnalyticsWS-<inject key="DeploymentID/Suffix" />**.
+1. Click on the search blade at the top and search for ```Log Analytics workspace```, then select **LogAnalyticsWS-<inject key="DeploymentID" enableCopy="false"/>**.
 
 1. Then select **Agents** from the left side menu. Click on **Log Analytics agent instructions** and copy the value of **Workspace ID** and **Primary Key** and save it into a Notepad or Notepad++ for later use.
  
@@ -176,7 +176,7 @@ In the last exercise, you have seen how to enable security measures and monitori
 
    ![](.././media/H1E3T3S18.png "H1E3T3S18")
 
-1. Select the log Analytics Workspace as **LogAnalyticsWS-<inject key="DeploymentID/Suffix" /> (1)** from the drop-down and click on **Enable assessment (2)**.
+1. Select the log Analytics Workspace as **LogAnalyticsWS-<inject key="DeploymentID" enableCopy="false"/> (1)** from the drop-down and click on **Enable assessment (2)**.
 
    ![](.././media/hyd28.png "H1E3T3S19")
    
