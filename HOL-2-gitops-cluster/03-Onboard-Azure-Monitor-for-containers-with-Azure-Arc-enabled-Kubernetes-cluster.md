@@ -4,7 +4,7 @@ In this exercise, you will see how to configure Azure Monitor for containers and
 
 ## Lab Objectives
 
-In this exercise, you will be performing the following tasks:
+In this exercise, you will be performing the following task:
 
 - Task 01: Configuring Azure Monitor
 
