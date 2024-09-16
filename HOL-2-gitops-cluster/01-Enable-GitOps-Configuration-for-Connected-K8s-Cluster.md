@@ -106,7 +106,7 @@ In this exercise, you will be performing the following tasks:
 
    ![](.././media/04.png) 
    
-     > **Note**: Wait for 5 mins before performing the next step
+     > **Note**: Wait for 5 minutes before performing the next step
 
      > ``Info`` - Once you execute the above command, the manifests in your forked repository provision a few namespaces, deploy workloads and provide some team-specific configuration. Using this repository with GitOps creates the following resources on your Kubernetes cluster:
 
