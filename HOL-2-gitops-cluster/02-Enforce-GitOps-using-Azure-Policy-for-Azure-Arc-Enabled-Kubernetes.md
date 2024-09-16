@@ -6,7 +6,7 @@ In this exercise, you will see how to use Azure Policy to enforce that each Azur
 
 ## Lab Objectives
 
-In this exercise, you will be performing the following tasks:
+In this exercise, you will be performing the following task:
 
 - Task 01: Create a Policy Assignment
 
