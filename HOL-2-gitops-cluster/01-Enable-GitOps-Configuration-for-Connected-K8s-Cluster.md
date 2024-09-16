@@ -1,10 +1,20 @@
-# HOL-2: Exercise 1: Enable GitOps Configuration on connected K8s Cluster
-
-#### Develop cloud-native apps, operate anywhere
+# HOL-2: Exercise 1: Enable GitOps Configuration on connected K8s Cluste
 
 In addition to managing and monitoring their Kubernetes clusters, Contoso’s central development teams are building applications for internal inventory management at their distribution sites. They need these applications to be containerized and run on Kubernetes clusters. The locations are spread across the country and Contoso is faced with the challenge of how to uniformly deploy, configure and manage their containerized applications across all these locations. By leveraging GitOps on Azure Arc-enabled Kubernetes, Contoso can centrally declare their Kubernetes configurations and applications in a Git repository and deploy them to all clusters simultaneously. Developers are more empowered because they can commit changes directly in the Git repo and these updates are also automatically rolled out to all the clusters.
 
 GitOps, as it relates to Kubernetes, is the practice of declaring the desired state of Kubernetes configuration (deployments, namespaces, etc.) in a Git repository followed by a polling and pull-based deployment of these configurations to the cluster using an operator. In this exercise, you will deploy a sample Kubernetes app using the az k8sconfiguration command and gitops and also update the configuration in the repository which you have linked to the connected cluster and verify if the cluster is getting updated based on the changes made. You will be using the Kubernetes cluster with which you connected in the earlier exercise.
+
+## Lab Objectives
+
+In this exercise, you will be performing the following tasks:
+
+- Task 01: Fork the GitHub Arc K8s demo repository
+- Task 02: Deploy App using az k8sconfiguration
+- Task 03: Validate the SourceControlConfiguration
+- Task 04: Validate the Kubernetes configuration
+- Task 05: Make changes to cluster declarations in the Git repo.
+- Task 06: Verify changes are deployed to the cluster.
+
 
 ## Task 1: Fork the GitHub Arc K8s demo repository
 
@@ -212,6 +222,6 @@ After config-agent has installed the flux instance, resources held in the git re
  
 <validation step="f1f20e86-84c1-438d-8082-5d5efac68d67" />  
 
-In this exercise, you have seen how to enable GitOps Configuration on connected K8s Cluster and how it works.
+## Summary
 
-Now, you can move on to the next exercise.
+In this exercise, you deployed a sample Kubernetes app using the az k8sconfiguration command and GitOps. You then updated the linked repository configuration and verified that the connected Kubernetes cluster applied the updates automatically based on the changes made.
