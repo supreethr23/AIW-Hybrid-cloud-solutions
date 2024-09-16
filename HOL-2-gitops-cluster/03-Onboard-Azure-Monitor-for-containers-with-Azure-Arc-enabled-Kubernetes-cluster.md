@@ -2,6 +2,12 @@
 
 In this exercise, you will see how to configure Azure Monitor for containers and view insights for Kubernetes - Azure Arc resource.
 
+## Lab Objectives
+
+In this exercise, you will be performing the following tasks:
+
+- Task 01: Configuring Azure Monitor
+
 ## Task 1: Configuring Azure Monitor
 
 1. Navigate to **azure-arc** resource group and select **microk8s-cluster** Kubernetes - Azure Arc resource from the resources listed.
@@ -31,3 +37,7 @@ In this exercise, you will see how to configure Azure Monitor for containers and
 7. In the same pane, filter the **Time range = Last 6 Hours (1)** and click on **Containers (2)**. You will be able to see the list of Containers that are linked to the pod and node which you have monitored in the previous steps.
 
    ![](.././media/hol2-ex3-7.png "azuremonitor")
+
+## Summary
+
+In this exercise, you configured Azure Monitor for containers to track performance and gain insights for an Azure Arc-enabled Kubernetes resource, enabling enhanced monitoring and visibility.
