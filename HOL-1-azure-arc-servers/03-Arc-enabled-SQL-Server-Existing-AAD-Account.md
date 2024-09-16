@@ -2,6 +2,14 @@
 
 In the last exercise, you have seen how to enable security measures and monitoring for Arc-enabled servers. In this exercise, you will onboard SQL Server to Azure Arc using Azure Portal and PowerShell commands.
 
+## Lab Objectives
+
+In this exercise, you will be performing the following tasks:
+
+- Task 01: Login To Azure Portal
+- Task 02: Register Azure Arc-enabled SQL Server.
+- Task 03: Run on-demand SQL Assessment.
+
 ## Task 1: Login To Azure Portal
 
 1. Navigate back to Azure Portal which you have already opened in the previous exercises.
@@ -196,7 +204,6 @@ In the last exercise, you have seen how to enable security measures and monitori
  
 <validation step="e9c36253-2523-4964-9996-0b518f38ee52" />
 
-## In this exercise, you have covered the following:
- 
-   - Register Azure Arc-enabled SQL Server.
-   - Run on-demand SQL Assessment.
+## Summary 
+
+In this exercise, you registered an Azure Arc-enabled SQL Server, enabling centralized management and monitoring of SQL resources. You also performed an on-demand SQL Assessment to evaluate the server's configuration, identify potential issues, and receive recommendations for optimization and best practices.
