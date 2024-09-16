@@ -4,6 +4,12 @@ Contoso’s Central IT team also want to ensure that any new distribution site i
 
 In this exercise, you will see how to use Azure Policy to enforce that each Azure Arc-enabled Kubernetes cluster has specific GitOps configurations applied to it.
 
+## Lab Objectives
+
+In this exercise, you will be performing the following tasks:
+
+- Task 01: Create a Policy Assignment
+
 ## Task 1: Create a Policy Assignment
 
 In this task, you will select an existing policy definition and create a policy assignment. When creating the policy assignment you set the scope for the assignment: this will be the Azure Arc-enabled Kubernetes Cluster. You will also set the parameters for the sourceControlConfiguration that will be created. Once the assignment is created the Policy engine will identify all connectedCluster or managedCluster resources that are located within the scope and will apply the sourceControlConfiguration to each one.
@@ -103,3 +109,6 @@ You don't have to wait for the compliance state to change. You can move ahead to
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
  
 <validation step="17ad1ccd-2880-4c9c-9357-e7fdf85ec88f" />
+
+## Summary 
+In this exercise, you used Azure Policy to enforce that specific GitOps configurations are applied to each Azure Arc-enabled Kubernetes cluster, ensuring consistent governance and compliance across the clusters.
