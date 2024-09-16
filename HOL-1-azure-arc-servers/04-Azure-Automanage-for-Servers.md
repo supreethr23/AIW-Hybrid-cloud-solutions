@@ -32,3 +32,7 @@ Azure Automanage enrols, configures, and monitors the entire lifecycle of dev/te
    ![](.././media/hol1-ex4-automanage-7new.png "searchautoamanage")
 
 7. You can proceed with the next task and review the status later.
+
+## Summary
+
+In this task, you used Azure Automanage to enroll and configure a VM, applying the "Azure best practices - Dev/Test" profile. This setup automates lifecycle management, including security, updates, change tracking, and monitoring through tools like Azure Security Centre and Log Analytics.
