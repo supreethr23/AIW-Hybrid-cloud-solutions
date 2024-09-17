@@ -62,6 +62,17 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop! 
 
+## Lab Objectives
+
+In this exercise, you will be performing the following tasks:
+
+- Task 01: Getting Started with Hyper-V Infrastructure.
+- Task 02: Onboard Linux Machine to Azure Arc.
+- Task 03: Onboard Kubernetes Cluster to Azure Arc.
+- Task 04: Verify if the Kubernetes cluster is connected to Azure Arc.
+- Task 05: Create a policy assignment to identify compliant/non-compliant resources.
+- Task 06: Monitor Arc Enabled machines with Azure Monitor.
+  
 ## Task 1: Getting Started with Hyper-V Infrastructure
 
 Hyper-V is Microsoft's hardware virtualization product. It lets you create and run a software version of a computer, called a virtual machine. Each virtual machine acts like a complete computer, running an operating system and programs. When you need computing resources, virtual machines give you more flexibility, help save time and money, and are a more efficient way to use hardware than just running one operating system on physical hardware. In this task, you will walk through an on-prem environment that is hosted on Hyper-V. You will find three virtual machines hosted on the Hyper-V server, which you will onboard to Azure Arc and play around with.
