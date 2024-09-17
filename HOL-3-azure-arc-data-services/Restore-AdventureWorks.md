@@ -4,6 +4,14 @@ Contoso has some applications that use SQL Server as the backend database. They 
 
 Also, we will be exploring the Kibana and Grafana Dashboards upload the logs and metrics to the Azure portal and view the logs.
 
+## Lab Objectives
+
+In this exercise, you will be performing the following tasks:
+
+- Task 01: Restore the AdventureWorks2012 database into Azure SQL Managed instance - Azure Arc Using Kubectl.
+- Task 02: View Azure Arc Arc-enabled SQL-managed instance logs in Azure Portal.
+- Task 03: Monitor with Azure Data Studio.
+
 ### Task 1: Restore the AdventureWorks2012 database into Azure SQL Managed instance - Azure Arc Using Kubectl
 
 Restoring an existing SQL database from a SQL Server to Azure Arc Arc-enabled SQL MI is very simple. All you have to do is take a backup from your existing SQL Server and then restore that backup to SQL MI. In this lab, we have already taken the backup and downloaded it to the local drive folder. 
@@ -167,8 +175,5 @@ Now let us Monitor the SQL MI status using Grafana and Kibana.
     > **Info**:  You can learn more about Grafana here: [View logs and metrics using Kibana and Grafana](https://docs.microsoft.com/en-us/azure/azure-arc/data/monitor-grafana-kibana)  
   
 
-### After this exercise, you have performed the following
-
-   - Restored the AdventureWorks database into Azure SQL Managed instance - Azure Arc.
-   - View Azure Arc Arc-enabled SQL managed instance logs in Azure portal.
-   - Monitored with Kibana and Grafana.
+## Summary
+In this exercise, you restored the AdventureWorks database into an Azure Arc-enabled SQL Managed Instance, viewed SQL instance logs in the Azure portal, and monitored performance using Kibana and Grafana for enhanced visibility and insights.
