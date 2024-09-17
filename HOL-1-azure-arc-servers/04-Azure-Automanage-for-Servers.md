@@ -8,7 +8,7 @@ Azure Automanage enrols, configures, and monitors the entire lifecycle of dev/te
 
 ## Lab Objectives
 
-In this exercise, you will be performing the following tasks:
+In this exercise, you will be performing the following task:
 
 - Task 01: Configuring Azure Automanage
 
