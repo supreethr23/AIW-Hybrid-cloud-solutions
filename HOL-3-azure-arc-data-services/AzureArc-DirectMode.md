@@ -1,3 +1,4 @@
+# HOL 3:
 ## Exercise 1: Deploying Azure Arc Data Controller with direct connectivity mode and Azure Arc-enabled SQL Managed Instance Business Critical
   
 Duration: 45 Minutes
