@@ -11,10 +11,11 @@ In this exercise, you will be performing the following tasks:
 
 - Task 1: Log in to Azure and install Azure CLI extensions.
 - Task 2: Onboard an existing Kubernetes cluster to Azure using Azure Arc-enabled Kubernetes.
-- Task 3: Deploy Azure Arc Data Controller in directly connected mode using Azure Portal.
-- Task 4: Deploy Azure Arc-enabled SQL Managed Instance using Azure Portal.
-- Task 5: Connecting Azure Arc Data Controller using Azure Data Studio.
-- Task 6: Connect to Azure Arc-enabled SQL Managed Instance using Azure Data Studio.
+- Task 3: Create a custom location on the Azure Arc-enabled Kubernetes cluster
+- Task 4: Deploy Azure Arc Data Controller in directly connected mode using Azure Portal.
+- Task 5: Deploy Azure Arc-enabled SQL Managed Instance using Azure Portal.
+- Task 6: Connecting Azure Arc Data Controller using Azure Data Studio.
+- Task 7: Connect to Azure Arc-enabled SQL Managed Instance using Azure Data Studio.
 
 ## Connect an existing Kubernetes cluster to Azure using Azure Arc-enabled Kubernetes
 
@@ -138,7 +139,7 @@ In this task, you will be connecting an existing Kubernetes cluster to Azure usi
   
     ![](media/azurearc-connected.png "Lab Environment")
 
-### Create a custom location on the Azure Arc-enabled Kubernetes cluster
+### Task 3: Create a custom location on the Azure Arc-enabled Kubernetes cluster
 
    Custom Locations provides administrators a way to deploy Azure Arc data services and other Azure Arc-enabled services to their locations, similar to Azure locations.
 
@@ -227,7 +228,7 @@ In this task, you will be connecting an existing Kubernetes cluster to Azure usi
 
     ![](./images/law-latest-ui.png "Lab Environment")
     
-### Task 3: Deploy Azure Arc Data Controller in directly connected mode using Azure Portal
+### Task 4: Deploy Azure Arc Data Controller in directly connected mode using Azure Portal
 
 1. From the Azure Portal, search for **Azure arc data controllers** from the search box and then click on it.  
 
@@ -316,7 +317,7 @@ In this task, you will be connecting an existing Kubernetes cluster to Azure usi
   
     ![](./media/overview-dc-direct.png "Lab Environment")
 
-### Task 4: Deploy Azure Arc-enabled SQL Managed Instance using Azure Portal.
+### Task 5: Deploy Azure Arc-enabled SQL Managed Instance using Azure Portal.
 
 In this exercise, let's create an **Azure Arc-enabled SQL Managed Instance** using Azure Portal on a directly connected Azure Arc data controller in a custom location.
 
@@ -422,7 +423,7 @@ In this exercise, let's create an **Azure Arc-enabled SQL Managed Instance** usi
   
     ![](./media/overview-sqlmi-direct.png "Lab Environment")
 
-### Task 5: Connecting Azure Arc Data Controller using Azure Data Studio
+### Task 6: Connecting Azure Arc Data Controller using Azure Data Studio
 
 Now let us connect to the data controller using Azure Data Studio.
 
@@ -476,7 +477,7 @@ Now let us connect to the data controller using Azure Data Studio.
   
     ![](./media/ads-direct-overview.png "Azure Data Studio")
 
-### Task 6: Connect to Azure Arc-enabled SQL Managed Instance using Azure Data Studio.
+### Task 7: Connect to Azure Arc-enabled SQL Managed Instance using Azure Data Studio.
 
 In this task, let us learn how to connect to Azure Arc-enabled SQL Managed instance using Azure Data Studio.
 
