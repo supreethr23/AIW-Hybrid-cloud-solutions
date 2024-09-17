@@ -5,15 +5,10 @@ Welcome to your Automate-document-processing-using-AzureOpenAI Workshop! We've p
 ## Objectives
 
 1. Explore how Contoso can simplify managing distributed IT systems using Azure Arc.
-   
 1. Onboard on-premises virtual machines, Kubernetes clusters, and SQL servers to Azure Arc.
-   
 1. Apply Azure governance policies, enable monitoring, and integrate Microsoft Defender for Cloud and Microsoft Sentinel.
-   
 1. Deploy GitOps configurations and use Azure Policy for Kubernetes cluster management.
-   
-1. Enable large-scale observability with Azure Monitor for Containers.
-   
+1. Enable large-scale observability with Azure Monitor for Containers. 
 1. Deploy cloud-native SQL Managed Instances and PostgreSQL Hyperscale using the Azure Arc data controller on Kubernetes clusters.
 
 ## Prerequisites
