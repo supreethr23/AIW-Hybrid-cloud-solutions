@@ -1,6 +1,8 @@
-## Overall Estimated Duration: 8 Hours
+# **Getting Started with Your  Hybrid Cloud Solution Hands On Lab**
  
-Welcome to your Automate-document-processing-using-AzureOpenAI Workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Welcome to your Hybrid Cloud Solution(Azure Arc) Hands On Lab! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+
+## Overall Estimated Duration: 8 Hours
 
 ## Objectives
 
@@ -36,10 +38,6 @@ In the Azure Arc architecture, **Azure Arc** enables unified management for Cont
 - **Microsoft Sentinel:** A scalable cloud-native security information and event management (SIEM) tool for threat detection and response.
 - **GitOps for Kubernetes:** An operational model that uses Git repositories as the source of truth for automated Kubernetes deployments.
 - **Azure Data Services:** Cloud-native, managed services for SQL and PostgreSQL, available across hybrid environments with Azure Arc.
-
-# **Getting Started with Your Automate-document-processing-using-AzureOpenAI Workshop**
- 
-Welcome to your Hybrid Cloud Solution(Azure Arc) Hands On Lab! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
 
 
 ## **Accessing Your Lab Environment**
