@@ -20,9 +20,11 @@ Welcome to your Automate-document-processing-using-AzureOpenAI Workshop! We've p
 
 Participants should have: Basic knowledge and understanding of the following
 
-- Familiarity with AI concepts.
+- Basic understanding of Azure Kubernetes Service and managing workloads within them.
 - Experience with Azure cloud services, including how to navigate the Azure portal.
-- Basic knowledge of programming languages commonly used with AI models, such as Python.
+- Basic knowledge Azure Arc.
+- Knowledge of Microsoft Sentinel for threat detection and security monitoring.
+- Basic knowledge of GitOps 
   
 ## Architecture Diagram
 
