@@ -6,6 +6,12 @@ In the last exercise, we worked on onboarding SQL Server to Azure Arc, so now le
 ## Overview: 
 Azure Automanage enrols, configures, and monitors the entire lifecycle of dev/test and production VMs for products, services and features such as Azure Security Centre, update management, change tracking, VM inventory, desired state configuration, guest configuration, automation accounts and log analytics.
 
+## Lab Objectives
+
+In this exercise, you will be performing the following tasks:
+
+- Task 01: Configuring Azure Automanage
+
 ## Task 1: Configuring Azure Automanage
 
 1. Navigate to the home page of the [Azure Portal](https://portal.azure.com/#home), then search for **Automanage** in the search box and select **Automanage - Azure machine best practices**.
