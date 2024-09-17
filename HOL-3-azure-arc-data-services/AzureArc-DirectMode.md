@@ -4,6 +4,17 @@ Duration: 45 Minutes
   
 In this exercise, you will be connecting an existing Kubernetes cluster to Azure using Azure Arc-enabled Kubernetes. You will be deploying an Azure data controller in direct connectivity mode to a custom location using Azure portal and Azure CLI, and later you will be creating the Azure Arc-enabled SQL Managed Instance Business Critical on top of the Azure Arc Data Controller. In the short term, you will be preparing an infrastructure for the next exercise to restore the Databases into the Azure SQL Managed Instance. 
 
+## Lab Objectives
+
+In this exercise, you will be performing the following tasks:
+
+- Task 1: Log in to Azure and install Azure CLI extensions.
+- Task 2: Onboard an existing Kubernetes cluster to Azure using Azure Arc-enabled Kubernetes.
+- Task 3: Deploy Azure Arc Data Controller in directly connected mode using Azure Portal.
+- Task 4: Deploy Azure Arc-enabled SQL Managed Instance using Azure Portal.
+- Task 5: Connecting Azure Arc Data Controller using Azure Data Studio.
+- Task 6: Connect to Azure Arc-enabled SQL Managed Instance using Azure Data Studio.
+
 ## Connect an existing Kubernetes cluster to Azure using Azure Arc-enabled Kubernetes
 
 ### Task 1: Log in to Azure and install Azure CLI extensions
@@ -523,6 +534,8 @@ In this task, let us learn how to connect to Azure Arc-enabled SQL Managed insta
 1. Now you can see that you are successfully connected with your Azure Arc-enabled SQL MI Server. You can see that under Servers. You can explore the SQL Managed Instance - Azure Arc Dashboard to view the databases and run a query.
   
     ![](./media/ads-9.png "ADS")
+
+## Summary
 
 In this exercise, we connected our cluster to the Azure Arc-enabled cluster and deployed a custom location and data controller with directly connected mode with the help of Azure portal and Azure CLI, and created an Azure Arc-enabled SQL Managed Instance server on the directly connected mode of Azure Arc data controller. Also, we have connected the Azure Arc Data Controller and Azure Arc-enabled SQL Managed Instance Business Critical using Azure Data Studio.
 
