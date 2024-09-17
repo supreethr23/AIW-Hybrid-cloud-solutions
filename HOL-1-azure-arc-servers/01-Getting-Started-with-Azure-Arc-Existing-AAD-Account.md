@@ -1,4 +1,5 @@
-# HOL-1: Exercise 1: Getting Started with Azure Arc
+# HOL-1: 
+# Exercise 1: Getting Started with Azure Arc
 
 #### Secure and govern across environments 
 
