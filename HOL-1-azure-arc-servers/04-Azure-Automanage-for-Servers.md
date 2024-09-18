@@ -5,7 +5,7 @@ In the last exercise, we worked on onboarding SQL Server to Azure Arc, so now le
 ## Overview: 
 Azure Automanage enrols, configures, and monitors the entire lifecycle of dev/test and production VMs for products, services and features such as Azure Security Centre, update management, change tracking, VM inventory, desired state configuration, guest configuration, automation accounts and log analytics.
 
-## Lab Objectives
+## Exercise Objectives
 
 In this exercise, you will be performing the following task:
 
