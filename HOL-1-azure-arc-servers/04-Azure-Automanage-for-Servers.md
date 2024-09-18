@@ -1,9 +1,16 @@
-# HOL-1: Exercise 4: Enabling Azure Automanage for Server - Azure Arc
+# HOL-1:
+# Exercise 4: Enabling Azure Automanage for Server - Azure Arc
 
 In the last exercise, we worked on onboarding SQL Server to Azure Arc, so now let's enable Azure Automanage for Server - Azure Arc which we created earlier in the lab.
 
 ## Overview: 
 Azure Automanage enrols, configures, and monitors the entire lifecycle of dev/test and production VMs for products, services and features such as Azure Security Centre, update management, change tracking, VM inventory, desired state configuration, guest configuration, automation accounts and log analytics.
+
+## Lab Objectives
+
+In this exercise, you will be performing the following task:
+
+- Task 01: Configuring Azure Automanage
 
 ## Task 1: Configuring Azure Automanage
 
@@ -32,3 +39,7 @@ Azure Automanage enrols, configures, and monitors the entire lifecycle of dev/te
    ![](.././media/hol1-ex4-automanage-7new.png "searchautoamanage")
 
 7. You can proceed with the next task and review the status later.
+
+## Summary
+
+In this task, you used Azure Automanage to enroll and configure a VM, applying the "Azure best practices - Dev/Test" profile. This setup automates lifecycle management, including security, updates, change tracking, and monitoring through tools like Azure Security Centre and Log Analytics.

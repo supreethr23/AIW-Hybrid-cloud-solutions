@@ -1,6 +1,18 @@
+# HOL 3:
 ## Exercise 3: Connecting to Azure Arc Data Controller and deploying Azure Arc-enabled SQL Managed Instance Business Critical in Indirect connectivity mode
 
 In this exercise, you will be connecting to the pre-deployed Azure Arc Data Controller with indirect connectivity mode using Azure Data Studio.  we will also create an Azure Arc-enabled SQL Managed Instance Business Critical on top of an Azure Arc Data Controller with indirect connectivity mode.
+
+## Lab Objectives
+
+In this exercise, you will be performing the following tasks:
+
+- Task 1: Connect to the Azure Arc data controller using Azure Data Studio.
+- Task 2: Monitor with Data Controller Dashboard.
+- Task 3: Create Azure Arc-enabled SQL Managed Instance.
+- Task 4: Connect to Azure Arc-enabled SQL Managed Instance using Azure Data Studio.
+- Task 5: View SQL MI resource and SQL MI logs in the Azure portal.
+  
 
 ### Task 1: Connect to the Azure Arc data controller using Azure Data Studio.
 
@@ -334,11 +346,5 @@ Now that we have the SQL Managed Instance created, let us upload some metrics, u
 
     > **Note**: You might have to resize the editor, to view the logs from the output window.
 
-### In this exercise, you have covered the following:
- 
-   - Connecting Azure Data Controller indirect mode using Azure Data Studio 
-   - Monitor with Data Controller Dashboard.
-   - Creating Azure Arc-enabled SQL Managed Instance
-   - Connecting to Azure Arc-enabled SQL Managed Instance using Azure Data Studio.
-   - Exporting and uploading logs to Azure Portal.
-   - Browsing the resources in Azure Portal
+## Summary
+ In this exercise, you connected to the Azure Data Controller in indirect mode using Azure Data Studio, monitored it with the Data Controller Dashboard, and created an Azure Arc-enabled SQL Managed Instance. You also connected to the SQL Managed Instance via Azure Data Studio, exported and uploaded logs to the Azure portal, and browsed the resources in the portal.

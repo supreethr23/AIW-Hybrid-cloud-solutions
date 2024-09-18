@@ -1,8 +1,15 @@
-# HOL-2: Exercise 2: Enforce GitOps using Azure Policy for Azure Arc-enabled Kubernetes
+# HOL-2: 
+# Exercise 2: Enforce GitOps using Azure Policy for Azure Arc-enabled Kubernetes
 
 Contoso’s Central IT team also want to ensure that any new distribution site is quickly ready to set up and start operations with the applications they need. Leveraging Azure Policy, they are able to ensure that any new Kubernetes cluster is automatically connected to the same Git repository where the applications are configured so these can be deployed to the new cluster without any manual intervention from DevOps teams.
 
 In this exercise, you will see how to use Azure Policy to enforce that each Azure Arc-enabled Kubernetes cluster has specific GitOps configurations applied to it.
+
+## Lab Objectives
+
+In this exercise, you will be performing the following task:
+
+- Task 01: Create a Policy Assignment
 
 ## Task 1: Create a Policy Assignment
 
@@ -103,3 +110,6 @@ You don't have to wait for the compliance state to change. You can move ahead to
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
  
 <validation step="17ad1ccd-2880-4c9c-9357-e7fdf85ec88f" />
+
+## Summary 
+In this exercise, you used Azure Policy to enforce that specific GitOps configurations are applied to each Azure Arc-enabled Kubernetes cluster, ensuring consistent governance and compliance across the clusters.

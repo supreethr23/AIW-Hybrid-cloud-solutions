@@ -1,4 +1,5 @@
-# HOL-1: Exercise 1: Getting Started with Azure Arc
+# HOL-1: 
+# Exercise 1: Getting Started with Azure Arc
 
 #### Secure and govern across environments 
 
@@ -6,62 +7,17 @@ As noted before, Contoso has Windows, Linux, SQL Servers, and Kubernetes cluster
 
 In this exercise, you will learn how Arc can help Contoso onboard and organize servers and Kubernetes clusters in the Azure Portal, govern them using Azure Policy and enable central monitoring by integrating with Azure Monitor.
 
-## **Accessing Your Lab Environment**
- 
-1. You can see a virtual machine desktop 💻 (LabVM/ARCHOST) is loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab.
+## Lab Objectives
 
-    ![](.././media/GS14.png "Lab Environment")
+In this exercise, you will be performing the following tasks:
 
-### **Virtual Machine & Lab Guide**
- 
-Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
- 
-## **Exploring Your Lab Resources**
- 
-To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
-
-   ![](.././media/15-05-2024.png)
- 
-## **Utilizing the Split Window Feature**
- 
-For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
- 
-   ![](.././media/GS8.png)
- 
-## **Managing Your Virtual Machine**
- 
-Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
- 
-  ![](.././media/15-05-2024(1).png)
-
-## **Let's Get Started with Azure Portal**
- 
-1. In the **LabVM/ARCHost VM**, double-click on the Azure portal shortcut of the Microsoft Edge browser provided on the desktop.
- 
-    ![](.././media/GS1.png)
- 
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
- 
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
- 
-      ![](.././media/GS2.png)
- 
-3. Next, provide your password:
- 
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
- 
-      ![](.././media/GS3.png)
- 
-4. If you see the pop-up **Stay Signed in?**, click **No**.
-
-   ![](.././media/GS9.png)
-
-5. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
-
-6. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
-   
-Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop! 
-
+- Task 01: Getting Started with Hyper-V Infrastructure.
+- Task 02: Onboard Linux Machine to Azure Arc.
+- Task 03: Onboard Kubernetes Cluster to Azure Arc.
+- Task 04: Verify if the Kubernetes cluster is connected to Azure Arc.
+- Task 05: Create a policy assignment to identify compliant/non-compliant resources.
+- Task 06: Monitor Arc Enabled machines with Azure Monitor.
+  
 ## Task 1: Getting Started with Hyper-V Infrastructure
 
 Hyper-V is Microsoft's hardware virtualization product. It lets you create and run a software version of a computer, called a virtual machine. Each virtual machine acts like a complete computer, running an operating system and programs. When you need computing resources, virtual machines give you more flexibility, help save time and money, and are a more efficient way to use hardware than just running one operating system on physical hardware. In this task, you will walk through an on-prem environment that is hosted on Hyper-V. You will find three virtual machines hosted on the Hyper-V server, which you will onboard to Azure Arc and play around with.
@@ -467,10 +423,6 @@ In this task, let's configure and collect data from your Linux machine by enabli
  
 <validation step="936f9acc-302b-4616-b597-f8ce17fe1949" />
  
-## In this exercise, you have covered the following:
- 
-   - Getting started with Hyper-V Infrastructure.
-   - Onboarding Linux Machine to Azure Arc.
-   - Onboarding Kubernetes Cluster to Azure Arc and verification.
-   - Created a policy assignment to identify compliant/non-compliant resources.
-   - Monitor Arc-enabled machines with Azure Monitor.
+## Summary 
+
+In this exercise, you explored the fundamentals of setting up Hyper-V infrastructure, onboarded a Linux machine to Azure Arc, and integrated a Kubernetes cluster into Azure Arc while verifying the setup. Additionally, you created a policy assignment to identify compliant and non-compliant resources across your environment. Finally, you enabled monitoring for Arc-enabled machines using Azure Monitor to ensure real-time tracking and performance insights, streamlining management and governance across hybrid and multi-cloud environments.
