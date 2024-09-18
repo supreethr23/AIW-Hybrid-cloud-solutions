@@ -5,7 +5,7 @@ Contoso’s Central IT team also want to ensure that any new distribution site i
 
 In this exercise, you will see how to use Azure Policy to enforce that each Azure Arc-enabled Kubernetes cluster has specific GitOps configurations applied to it.
 
-## Lab Objectives
+## Exercise Objectives
 
 In this exercise, you will be performing the following task:
 
