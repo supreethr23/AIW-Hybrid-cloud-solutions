@@ -2,7 +2,7 @@
 ## Estimated Duration: 20 Minutes
 In the last exercise, we enabled the Linux Machine and Kubernetes cluster on Azure Arc and verified it. Now let's see how to onboard your Azure Arc-enabled server to Microsoft Sentinel and start collecting security-related events. Microsoft Sentinel provides a single solution for alert detection, threat visibility, proactive hunting, and threat response across the enterprise.
 
-## Lab Objectives
+## Exercise Objectives
 
 In this exercise, you will be performing the following tasks:
 
