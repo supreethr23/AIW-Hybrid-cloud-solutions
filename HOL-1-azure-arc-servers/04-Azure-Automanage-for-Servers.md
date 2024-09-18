@@ -1,5 +1,5 @@
 # Exercise 4: Enabling Azure Automanage for Server - Azure Arc
-## Estimated Duration: 10 Minutes
+## Estimated Duration: 20 Minutes
 In the last exercise, we worked on onboarding SQL Server to Azure Arc, so now let's enable Azure Automanage for Server - Azure Arc which we created earlier in the lab.
 
 ## Overview: 
