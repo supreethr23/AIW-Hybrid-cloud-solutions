@@ -2,7 +2,7 @@
 ## Estimated Duration: 30 Minutes
 In the last exercise, you have seen how to enable security measures and monitoring for Arc-enabled servers. In this exercise, you will onboard SQL Server to Azure Arc using Azure Portal and PowerShell commands.
 
-## Lab Objectives
+## Exercise Objectives
 
 In this exercise, you will be performing the following tasks:
 
