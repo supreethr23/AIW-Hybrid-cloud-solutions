@@ -5,7 +5,7 @@ Contoso has some applications that use SQL Server as the backend database. They 
 
 Also, we will be exploring the Kibana and Grafana Dashboards upload the logs and metrics to the Azure portal and view the logs.
 
-## Lab Objectives
+## Exercise Objectives
 
 In this exercise, you will be performing the following tasks:
 
