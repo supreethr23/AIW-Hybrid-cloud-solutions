@@ -4,6 +4,10 @@ Welcome to your Hybrid Cloud Solution(Azure Arc) Hands On Lab! We've prepared a 
 
 ## Overall Estimated Duration: 8 Hours
 
+## Overview
+
+Azure Arc is a solution that extends Azure's capabilities to manage and run applications and services across diverse environments such as datacenters, edge locations, and multicloud platforms. It provides a unified approach for developing, operating, and securing both new and existing applications using the same tools, security measures, and governance mechanisms available within the Azure ecosystem. Azure Arc enables you to utilize Azure services—such as application management, data, and AI—on existing hardware, virtualization platforms, Kubernetes clusters, IoT devices, and integrated systems.
+
 ## Objectives
 
 1. Explore how Contoso can simplify managing distributed IT systems using Azure Arc.
@@ -40,35 +44,35 @@ In the Azure Arc architecture, **Azure Arc** enables unified management for Cont
 - **Azure Data Services:** Cloud-native, managed services for SQL and PostgreSQL, available across hybrid environments with Azure Arc.
 
 
-## **Accessing Your Lab Environment**
+## Accessing Your Lab Environment
  
 1. You can see a virtual machine desktop 💻 (LabVM/ARCHOST) is loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab.
 
     ![](.././media/GS14.png "Lab Environment")
 
-### **Virtual Machine & Lab Guide**
+### Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
  
-## **Exploring Your Lab Resources**
+## Exploring Your Lab Resources
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
 
    ![](.././media/15-05-2024.png)
  
-## **Utilizing the Split Window Feature**
+## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
    ![](.././media/GS8.png)
  
-## **Managing Your Virtual Machine**
+## Managing Your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
   ![](.././media/15-05-2024(1).png)
 
-## **Let's Get Started with Azure Portal**
+## Let's Get Started with Azure Portal
  
 1. In the **LabVM/ARCHost VM**, double-click on the Azure portal shortcut of the Microsoft Edge browser provided on the desktop.
  
