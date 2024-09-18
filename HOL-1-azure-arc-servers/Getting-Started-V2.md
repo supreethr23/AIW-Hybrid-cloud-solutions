@@ -100,7 +100,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 1. If you see the pop-up **Action Required**, keep default and then click on **Ask later**. If you see the pop-up Help us protect your account, click on **Skip for now**(14 days until this is required), and then click on **Next**.
 
-   ![Asklater](images/asklater.png)
+   ![Asklater](.././media/asklater.png)
 
 ## Support Contact
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
