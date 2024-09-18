@@ -2,7 +2,7 @@
 ## Estimated Duration: 60 Minutes
 In this exercise, you will learn how Arc can help Contoso onboard and organize servers and Kubernetes clusters in the Azure Portal, govern them using Azure Policy and enable central monitoring by integrating with Azure Monitor.
 
-## Lab Objectives
+## Exercise Objectives
 
 In this exercise, you will be performing the following tasks:
 
