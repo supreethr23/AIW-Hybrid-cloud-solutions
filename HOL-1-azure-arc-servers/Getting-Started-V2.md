@@ -97,5 +97,17 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 5. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
 6. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
+
+1. If you see the pop-up **Action Required**, keep default and then click on **Ask later**. If you see the pop-up Help us protect your account, click on **Skip for now**(14 days until this is required), and then click on **Next**.
+
+   ![Asklater](images/asklater.png)
+
+## Support Contact
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+
+   - Email Support: labs-support@spektrasystems.com.
+   - Live Chat Support: https://cloudlabs.ai/labs-support
    
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop! 
