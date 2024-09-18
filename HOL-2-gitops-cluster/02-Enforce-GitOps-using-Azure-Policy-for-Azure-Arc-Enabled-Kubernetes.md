@@ -1,4 +1,5 @@
 # Exercise 6: Enforce GitOps using Azure Policy for Azure Arc-enabled Kubernetes
+## Estimated Duration: 20 Minutes
 
 Contoso’s Central IT team also want to ensure that any new distribution site is quickly ready to set up and start operations with the applications they need. Leveraging Azure Policy, they are able to ensure that any new Kubernetes cluster is automatically connected to the same Git repository where the applications are configured so these can be deployed to the new cluster without any manual intervention from DevOps teams.
 
