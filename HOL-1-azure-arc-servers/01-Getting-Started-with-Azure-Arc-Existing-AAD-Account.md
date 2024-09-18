@@ -1,9 +1,4 @@
-# HOL-1: 
 # Exercise 1: Getting Started with Azure Arc
-
-#### Secure and govern across environments 
-
-As noted before, Contoso has Windows, Linux, SQL Servers, and Kubernetes clusters across multiple locations, including on-premises data centres, distribution centres and multiple public clouds. Imagine you are a member of Contoso’s Central IT team. You want to be able to have central visibility of all these resources and manage them in a consistent manner, so your business operations run smoothly.
 
 In this exercise, you will learn how Arc can help Contoso onboard and organize servers and Kubernetes clusters in the Azure Portal, govern them using Azure Policy and enable central monitoring by integrating with Azure Monitor.
 
