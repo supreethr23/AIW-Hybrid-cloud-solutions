@@ -48,8 +48,10 @@ Hyper-V is Microsoft's hardware virtualization product. It lets you create and r
      * **ubuntu-k8s** - ```192.168.0.8```
      
      * **sqlvm** - ```192.168.0.4```
+  
      
         ![](.././media/guestvms1.png "Guest VMs")
+       
     
         > **Note**: If you see VMs are in the stopped state, and when you click on the Start button, if VMs are not getting started or if it is throwing any error. Then, right-click on Virtual Machine in stopped state and then click on **Delete saved state..**. After that, you can start the VMs and proceed to the next task.
 
