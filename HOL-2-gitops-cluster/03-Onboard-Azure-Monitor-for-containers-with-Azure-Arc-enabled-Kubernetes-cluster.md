@@ -44,4 +44,4 @@ In this exercise, you will be performing the following task:
 
 In this exercise, you configured Azure Monitor for containers to track performance and gain insights for an Azure Arc-enabled Kubernetes resource, enabling enhanced monitoring and visibility.
 
-### You have successfully completed the Exercise
+### You have successfully completed the Exercise.
