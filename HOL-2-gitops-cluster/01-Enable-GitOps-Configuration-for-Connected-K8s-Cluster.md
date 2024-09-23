@@ -228,4 +228,4 @@ After config-agent has installed the flux instance, resources held in the git re
 
 In this exercise, you deployed a sample Kubernetes app using the az k8sconfiguration command and GitOps. You then updated the linked repository configuration and verified that the connected Kubernetes cluster applied the updates automatically based on the changes made.
 
-### You have successfully completed the Exercise
+### You have successfully completed the Exercise.
