@@ -1,4 +1,4 @@
-# **Hybrid Cloud Solution Hands On Lab**
+# Hybrid Cloud Solution Hands On Lab
 ### Overall Estimated Duration: 8 Hours
 
 ## Overview
@@ -30,9 +30,11 @@ Participants should have basic knowledge and understanding of the following:
 - Knowledge of Microsoft Sentinel for threat detection and security monitoring.
 - Basic knowledge of GitOps .
   
-## Architecture Diagram
+## Architecture 
 
 In the Azure Arc architecture, **Azure Arc** enables unified management for Contoso's on-premises **Windows** and **Linux VMs** and **Kubernetes clusters**. **Azure Policy** ensures governance and compliance, while **Microsoft Defender for Cloud** provides comprehensive security. **Azure Monitor** tracks performance and metrics, with **Azure Monitor for Containers** offering observability for Kubernetes clusters. **Azure Arc-enabled SQL Managed Instance** and **Azure Arc-enabled PostgreSQL Hyperscale** deliver scalable, cloud-native data management. **GitOps** manages Kubernetes configurations, and **Azure Data Controller** facilitates the deployment and management of data services. This setup simplifies operations and extends Azure’s capabilities across Contoso's diverse IT environments.
+
+## Architecture Diagram
 
 ![Architecture](.././media/architecture12.JPG)
 
@@ -54,7 +56,7 @@ Welcome to your Hybrid Cloud Solution(Azure Arc) Hands On Lab! We've prepared a 
 
 ## Accessing Your Lab Environment
  
-1. You can see a virtual machine desktop 💻 (LabVM/ARCHOST) is loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab.
+  You can see a virtual machine desktop 💻 (LabVM/ARCHOST) is loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab.
 
     ![](.././media/GS14.png "Lab Environment")
 
@@ -122,5 +124,8 @@ Learner Support Contacts:
    - Live Chat Support: https://cloudlabs.ai/labs-support
    
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop! 
+
+Now, click on **Next** from the lower right corner to move on to the next page.
+![](.././media/lab-next.png)
 
 ### Happy Learning!!
