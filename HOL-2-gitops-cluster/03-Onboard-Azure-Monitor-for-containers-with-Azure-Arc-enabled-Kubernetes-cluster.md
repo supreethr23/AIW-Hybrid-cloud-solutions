@@ -1,9 +1,10 @@
 # Exercise 7: Onboard Azure Monitor for containers with Azure Arc-enabled Kubernetes cluster
-## Overall Estimated Duration: 20 Minutes
+### Overall Estimated Duration: 20 Minutes
+## Overview
 
 In this exercise, you will see how to configure Azure Monitor for containers and view insights for Kubernetes - Azure Arc resource.
 
-## Exercise Objectives
+## Objective
 
 In this exercise, you will be performing the following task:
 
@@ -42,3 +43,5 @@ In this exercise, you will be performing the following task:
 ## Summary
 
 In this exercise, you configured Azure Monitor for containers to track performance and gain insights for an Azure Arc-enabled Kubernetes resource, enabling enhanced monitoring and visibility.
+
+### You have successfully completed the Exercise
