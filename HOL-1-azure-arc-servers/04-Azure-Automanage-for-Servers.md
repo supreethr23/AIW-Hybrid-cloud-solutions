@@ -1,5 +1,5 @@
 # Exercise 4: Enabling Azure Automanage for Server - Azure Arc
-## Estimated Duration: 20 Minutes
+### Estimated Duration: 20 Minutes
 ## Overview: 
 
 In this exercise you will focus on using Azure Automanage to automatically enroll, configure, and monitor a server connected to Azure Arc. Azure Automanage simplifies the lifecycle management of virtual machines (VMs) by applying best practices for security, updates, and monitoring. It leverages services like Azure Security Center, Update Management, and Log Analytics for comprehensive VM management.
@@ -41,3 +41,5 @@ In this exercise, you will be performing the following task:
 ## Summary
 
 In this task, you used Azure Automanage to enroll and configure a VM, applying the "Azure best practices - Dev/Test" profile. This setup automates lifecycle management, including security, updates, change tracking, and monitoring through tools like Azure Security Centre and Log Analytics.
+
+### You have successfully completed the Exercise
