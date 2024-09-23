@@ -1,5 +1,5 @@
 # Exercise 10: Connecting to Azure Arc Data Controller and deploying Azure Arc-enabled SQL Managed Instance Business Critical in Indirect connectivity mode
-## Estimated Duration: 60 Minutes
+### Estimated Duration: 60 Minutes
 ## Overview
 
 In this exercise, you will be connecting to the pre-deployed Azure Arc Data Controller with indirect connectivity mode using Azure Data Studio.  we will also create an Azure Arc-enabled SQL Managed Instance Business Critical on top of an Azure Arc Data Controller with indirect connectivity mode.
