@@ -10,12 +10,16 @@ Azure Arc is a solution that extends Azure's capabilities to manage and run appl
 
 ## Objectives
 
-- Explore how Contoso can simplify managing distributed IT systems using Azure Arc.
-- Onboard on-premises virtual machines, Kubernetes clusters, and SQL servers to Azure Arc.
-- Apply Azure governance policies, enable monitoring, and integrate Microsoft Defender for Cloud and Microsoft Sentinel.
-- Deploy GitOps configurations and use Azure Policy for Kubernetes cluster management.
-- Enable large-scale observability with Azure Monitor for Containers. 
-- Deploy cloud-native SQL Managed Instances and PostgreSQL Hyperscale using the Azure Arc data controller on Kubernetes clusters.
+- **Getting Started with Azure Arc**: Azure Arc is a service that extends Azure management to on-premises, other cloud providers, and edge environments. You'll learn how to use Azure Arc to manage resources consistently across your hybrid and multi-cloud deployments.
+- **Onboard Azure Arc-enabled servers to Microsoft Sentinel and Microsoft Defender for Cloud**: Enhance the security of your Azure Arc-enabled servers by enabling Microsoft Defender for Cloud and onboarding these servers to Microsoft Sentinel.
+- **Onboard SQL Server to Arc**: Connect your Azure Arc-enabled SQL Server to Azure Arc for centralized management, monitoring, and governance. Run an on-demand assessment to get insights into the server's health, performance, and security. This information helps you identify issues, optimize resources, and ensure compliance.
+- **Enabling Azure Automanage for Server - Azure Arc**: Azure Automanage enrols, configures, and monitors the entire lifecycle of dev/test and production VMs for products, services and features such as Azure Security Centre, update management, change tracking, VM inventory, desired state configuration, guest configuration, automation accounts and log analytics.
+- **Enable GitOps Configuration on connected K8s Cluster**: Use GitOps to deploy and manage containerized applications on Azure Arc-enabled Kubernetes clusters. You'll configure a Git repository to store the desired state of your Kubernetes applications, and then use an operator to automatically deploy and update these configurations across multiple clusters. This approach centralizes management and empowers developers to contribute directly to the Git repository.
+- **Enforce GitOps using Azure Policy for Azure Arc-enabled Kubernetes**: Use Azure Policy to enforce that each Azure Arc-enabled Kubernetes cluster has specific GitOps configurations applied to it.
+- **Onboard Azure Monitor for containers with Azure Arc-enabled Kubernetes cluster**: Configure Azure Monitor for containers and view insights for Kubernetes - Azure Arc resource.
+- **Deploying Azure Arc Data Controller with direct connectivity mode and Azure Arc-enabled SQL Managed Instance Business Critical**: Connect an existing Kubernetes cluster to Azure using Azure Arc-enabled Kubernetes. You will be deploying an Azure data controller in direct connectivity mode to a custom location using Azure portal and Azure CLI, and later you will be creating the Azure Arc-enabled SQL Managed Instance Business Critical on top of the Azure Arc Data Controller. In the short term, you will be preparing an infrastructure for the next exercise to restore the Databases into the Azure SQL Managed Instance.
+- **Restoring an AdventureWorks database backup taken from SQL Server 2012 instance**: Restore the AdventureWorks2012 database into an Azure Arc-enabled SQL managed instance using kubectl, then view the instance logs in the Azure portal, and finally monitor the instance using Azure Data Studio.
+- **Connecting to Azure Arc Data Controller and deploying Azure Arc-enabled SQL Managed Instance Business Critical in Indirect connectivity mode**: Connect to the pre-deployed Azure Arc Data Controller with indirect connectivity mode using Azure Data Studio. we will also create an Azure Arc-enabled SQL Managed Instance Business Critical on top of an Azure Arc Data Controller with indirect connectivity mode.
 
 ## Prerequisites
 
