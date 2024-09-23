@@ -1,7 +1,5 @@
 # Exercise 9: Restoring an AdventureWorks database backup taken from SQL Server 2012 instance
 ### Estimated Duration: 60 Minutes
-## Overview
-
 Contoso has some applications that use SQL Server as the backend database. They have installed SQL Server on their Windows servers in their manufacturing plants, but these locations don’t necessarily have local IT support to update the operating system and SQL Server with the latest security updates. They have explored Azure Database for SQL Server and found that it meets their requirements and offers some unique capabilities such as easy to manage and migration from different cloud platforms. Therefore, they are excited about the opportunity of deploying SQL Server in their Azure Arc Arc-enabled environment.
 
 Also, we will be exploring the Kibana and Grafana Dashboards upload the logs and metrics to the Azure portal and view the logs.
@@ -181,4 +179,4 @@ Now let us Monitor the SQL MI status using Grafana and Kibana.
 ## Summary
 In this exercise, you restored the AdventureWorks database into an Azure Arc-enabled SQL Managed Instance, viewed SQL instance logs in the Azure portal, and monitored performance using Kibana and Grafana for enhanced visibility and insights.
 
-### You have successfully completed the Exercise.
+### You have successfully completed the lab.
