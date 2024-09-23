@@ -150,5 +150,5 @@ You can use the Azure Policy Deploy Log Analytics agent to Linux or Windows Azur
  
 In this exercise, you onboarded an Azure Arc-enabled machine to Microsoft Sentinel, enhancing its security and threat detection capabilities. Additionally, you enabled Microsoft Defender for Cloud to further strengthen security posture, ensuring comprehensive protection and monitoring across your hybrid infrastructure.
 
-### You have successfully completed the Exercise.
+### You have successfully completed the lab.
 
