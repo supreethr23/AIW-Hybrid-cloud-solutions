@@ -549,4 +549,4 @@ In this task, let us learn how to connect to Azure Arc-enabled SQL Managed insta
 
 In this exercise, we connected our cluster to the Azure Arc-enabled cluster and deployed a custom location and data controller with directly connected mode with the help of Azure portal and Azure CLI, and created an Azure Arc-enabled SQL Managed Instance server on the directly connected mode of Azure Arc data controller. Also, we have connected the Azure Arc Data Controller and Azure Arc-enabled SQL Managed Instance Business Critical using Azure Data Studio.
 
-### You have successfully completed the Exercise
+### You have successfully completed the Exercise.
