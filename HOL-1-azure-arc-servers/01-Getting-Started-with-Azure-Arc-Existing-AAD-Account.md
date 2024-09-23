@@ -426,4 +426,4 @@ In this task, let's configure and collect data from your Linux machine by enabli
 
 In this exercise, you explored the fundamentals of setting up Hyper-V infrastructure, onboarded a Linux machine to Azure Arc, and integrated a Kubernetes cluster into Azure Arc while verifying the setup. Additionally, you created a policy assignment to identify compliant and non-compliant resources across your environment. Finally, you enabled monitoring for Arc-enabled machines using Azure Monitor to ensure real-time tracking and performance insights, streamlining management and governance across hybrid and multi-cloud environments.
 
-### You have successfully completed the Exercise
+### You have successfully completed the Exercise.
