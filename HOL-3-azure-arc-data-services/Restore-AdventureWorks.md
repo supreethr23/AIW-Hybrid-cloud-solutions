@@ -181,4 +181,4 @@ Now let us Monitor the SQL MI status using Grafana and Kibana.
 ## Summary
 In this exercise, you restored the AdventureWorks database into an Azure Arc-enabled SQL Managed Instance, viewed SQL instance logs in the Azure portal, and monitored performance using Kibana and Grafana for enhanced visibility and insights.
 
-### You have successfully completed the Exercise
+### You have successfully completed the Exercise.
