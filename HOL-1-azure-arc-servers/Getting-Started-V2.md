@@ -36,6 +36,8 @@ In the Azure Arc architecture, **Azure Arc** enables unified management for Cont
 
 ## Explanation of Components
 
+The architecture for this lab involves the following key components:
+
 - **Azure Kubernetes Service (AKS):** A managed Kubernetes service for running and managing containerized applications in the cloud.
 - **Azure Arc:** Extends Azure management and governance to on-premises, multi-cloud, and edge environments.
 - **Azure Monitor:** A unified monitoring service to track application and infrastructure performance.
@@ -97,7 +99,10 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 1. If you see the pop-up **Action Required**, keep default and then click on **Ask later**. If you see the pop-up Help us protect your account, click on **Skip for now**(14 days until this is required), and then click on **Next**.
 
    ![Asklater](.././media/asklater.png)
- 
+
+   >**NOTE:** Do not enable MFA, select **Ask Later**.
+
+  
 4. If you see the pop-up **Stay Signed in?**, click **No**.
 
    ![](.././media/GS9.png)
