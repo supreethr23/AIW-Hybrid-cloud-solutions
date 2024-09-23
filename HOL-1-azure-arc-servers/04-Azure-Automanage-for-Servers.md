@@ -1,10 +1,8 @@
 # Exercise 4: Enabling Azure Automanage for Server - Azure Arc
 ## Estimated Duration: 20 Minutes
-In the last exercise, we worked on onboarding SQL Server to Azure Arc, so now let's enable Azure Automanage for Server - Azure Arc which we created earlier in the lab.
-
 ## Overview: 
 
-This exercise focuses on using Azure Automanage to automatically enroll, configure, and monitor a server connected to Azure Arc. Azure Automanage simplifies the lifecycle management of virtual machines (VMs) by applying best practices for security, updates, and monitoring. It leverages services like Azure Security Center, Update Management, and Log Analytics for comprehensive VM management.
+In this exercise you will focus on using Azure Automanage to automatically enroll, configure, and monitor a server connected to Azure Arc. Azure Automanage simplifies the lifecycle management of virtual machines (VMs) by applying best practices for security, updates, and monitoring. It leverages services like Azure Security Center, Update Management, and Log Analytics for comprehensive VM management.
 
 ## Objectives
 
