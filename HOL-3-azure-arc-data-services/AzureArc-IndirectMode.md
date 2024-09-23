@@ -350,4 +350,4 @@ Now that we have the SQL Managed Instance created, let us upload some metrics, u
 ## Summary
  In this exercise, you connected to the Azure Data Controller in indirect mode using Azure Data Studio, monitored it with the Data Controller Dashboard, and created an Azure Arc-enabled SQL Managed Instance. You also connected to the SQL Managed Instance via Azure Data Studio, exported and uploaded logs to the Azure portal, and browsed the resources in the portal.
 
-### You have successfully completed the Exercise
+### You have successfully completed the Exercise.
