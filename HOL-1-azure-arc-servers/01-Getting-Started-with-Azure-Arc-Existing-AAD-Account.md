@@ -1,6 +1,10 @@
 # Exercise 1: Getting Started with Azure Arc
-## Estimated Duration: 60 Minutes
+### Estimated Duration: 60 Minutes
 In this exercise, you will learn how Arc can help Contoso onboard and organize servers and Kubernetes clusters in the Azure Portal, govern them using Azure Policy and enable central monitoring by integrating with Azure Monitor.
+
+## Overview
+
+In this lab, you will learn how to onboard and manage on-premises resources and Kubernetes clusters using Azure Arc. The lab demonstrates how Azure Arc can help Contoso organize servers and Kubernetes clusters, govern them through Azure Policy, and monitor them centrally via Azure Monitor.
 
 ## Exercise Objectives
 
@@ -423,3 +427,5 @@ In this task, let's configure and collect data from your Linux machine by enabli
 ## Summary 
 
 In this exercise, you explored the fundamentals of setting up Hyper-V infrastructure, onboarded a Linux machine to Azure Arc, and integrated a Kubernetes cluster into Azure Arc while verifying the setup. Additionally, you created a policy assignment to identify compliant and non-compliant resources across your environment. Finally, you enabled monitoring for Arc-enabled machines using Azure Monitor to ensure real-time tracking and performance insights, streamlining management and governance across hybrid and multi-cloud environments.
+
+### You have successfully completed the Exercise
