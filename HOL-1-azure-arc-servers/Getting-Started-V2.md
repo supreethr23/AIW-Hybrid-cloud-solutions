@@ -10,12 +10,12 @@ Azure Arc is a solution that extends Azure's capabilities to manage and run appl
 
 ## Objectives
 
-1. Explore how Contoso can simplify managing distributed IT systems using Azure Arc.
-1. Onboard on-premises virtual machines, Kubernetes clusters, and SQL servers to Azure Arc.
-1. Apply Azure governance policies, enable monitoring, and integrate Microsoft Defender for Cloud and Microsoft Sentinel.
-1. Deploy GitOps configurations and use Azure Policy for Kubernetes cluster management.
-1. Enable large-scale observability with Azure Monitor for Containers. 
-1. Deploy cloud-native SQL Managed Instances and PostgreSQL Hyperscale using the Azure Arc data controller on Kubernetes clusters.
+- Explore how Contoso can simplify managing distributed IT systems using Azure Arc.
+- Onboard on-premises virtual machines, Kubernetes clusters, and SQL servers to Azure Arc.
+- Apply Azure governance policies, enable monitoring, and integrate Microsoft Defender for Cloud and Microsoft Sentinel.
+- Deploy GitOps configurations and use Azure Policy for Kubernetes cluster management.
+- Enable large-scale observability with Azure Monitor for Containers. 
+- Deploy cloud-native SQL Managed Instances and PostgreSQL Hyperscale using the Azure Arc data controller on Kubernetes clusters.
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ Participants should have: Basic knowledge and understanding of the following
 - Experience with Azure cloud services, including how to navigate the Azure portal.
 - Basic knowledge Azure Arc.
 - Knowledge of Microsoft Sentinel for threat detection and security monitoring.
-- Basic knowledge of GitOps 
+- Basic knowledge of GitOps .
   
 ## Architecture Diagram
 
