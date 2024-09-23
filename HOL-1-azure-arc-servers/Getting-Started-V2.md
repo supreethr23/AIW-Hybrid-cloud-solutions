@@ -50,7 +50,7 @@ The architecture for this lab involves the following key components:
 - **GitOps for Kubernetes:** An operational model that uses Git repositories as the source of truth for automated Kubernetes deployments.
 - **Azure Data Services:** Cloud-native, managed services for SQL and PostgreSQL, available across hybrid environments with Azure Arc.
 
-## **Getting Started with Your Hybrid Cloud Solution Hands On Lab**
+## Getting Started with Your Hybrid Cloud Solution Hands On Lab
  
 Welcome to your Hybrid Cloud Solution(Azure Arc) Hands On Lab! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
 
