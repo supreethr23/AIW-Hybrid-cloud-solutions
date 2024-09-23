@@ -209,3 +209,5 @@ In this exercise, you will be performing the following tasks:
 ## Summary 
 
 In this exercise, you registered an Azure Arc-enabled SQL Server, enabling centralized management and monitoring of SQL resources. You also performed an on-demand SQL Assessment to evaluate the server's configuration, identify potential issues, and receive recommendations for optimization and best practices.
+
+###  You have successfully completed the Exercise.
