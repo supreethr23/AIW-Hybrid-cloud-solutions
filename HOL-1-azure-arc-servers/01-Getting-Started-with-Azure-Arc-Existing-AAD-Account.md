@@ -1,7 +1,5 @@
 # Exercise 1: Getting Started with Azure Arc
 ### Estimated Duration: 60 Minutes
-## Overview
-
 In this exercise, you will learn how to onboard and manage on-premises resources and Kubernetes clusters using Azure Arc. The lab demonstrates how Azure Arc can help Contoso organize servers and Kubernetes clusters, govern them through Azure Policy, and monitor them centrally via Azure Monitor.
 
 ## Objectives
