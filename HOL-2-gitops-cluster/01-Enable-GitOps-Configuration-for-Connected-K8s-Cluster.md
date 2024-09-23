@@ -6,7 +6,7 @@ In addition to managing and monitoring their Kubernetes clusters, Contoso’s ce
 
 GitOps, as it relates to Kubernetes, is the practice of declaring the desired state of Kubernetes configuration (deployments, namespaces, etc.) in a Git repository followed by a polling and pull-based deployment of these configurations to the cluster using an operator. In this exercise, you will deploy a sample Kubernetes app using the az k8sconfiguration command and gitops and also update the configuration in the repository which you have linked to the connected cluster and verify if the cluster is getting updated based on the changes made. You will be using the Kubernetes cluster with which you connected in the earlier exercise.
 
-## Exercise Objectives
+## Objectives
 
 In this exercise, you will be performing the following tasks:
 
