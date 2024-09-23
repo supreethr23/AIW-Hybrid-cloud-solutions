@@ -2,9 +2,9 @@
 ### Estimated Duration: 60 Minutes
 ## Overview
 
-In this lab, you will learn how to onboard and manage on-premises resources and Kubernetes clusters using Azure Arc. The lab demonstrates how Azure Arc can help Contoso organize servers and Kubernetes clusters, govern them through Azure Policy, and monitor them centrally via Azure Monitor.
+In this exercise, you will learn how to onboard and manage on-premises resources and Kubernetes clusters using Azure Arc. The lab demonstrates how Azure Arc can help Contoso organize servers and Kubernetes clusters, govern them through Azure Policy, and monitor them centrally via Azure Monitor.
 
-## Exercise Objectives
+## Objectives
 
 In this exercise, you will be performing the following tasks:
 
