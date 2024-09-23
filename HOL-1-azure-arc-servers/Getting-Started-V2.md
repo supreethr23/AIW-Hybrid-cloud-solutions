@@ -20,7 +20,7 @@ Azure Arc is a solution that extends Azure's capabilities to manage and run appl
 
 ## Prerequisites
 
-Participants should have: Basic knowledge and understanding of the following
+Participants should have basic knowledge and understanding of the following:
 
 - Basic understanding of Azure Kubernetes Service and managing workloads within them.
 - Experience with Azure cloud services, including how to navigate the Azure portal.
